@@ -2,17 +2,29 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="theme-color" content="#000000" />
     <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
+    <meta name="referrer" content="always" />
+    <meta name="robots" content="all" />
+    <link rel="canonical" href="https://www.protonwebmaster.com/" />
     <meta name="description" content="Webmaster freelance à Bourges - Cher (18), Paris (75), développeur web, Agence Protonwebmaster, création de site internet, flyers, logo à Bourges, webmaster tools" >
     <meta name="keywords" content="webmaster freelance à Bourges, webmaster à Bourges, webmaster indépendant, développeur web, google webmaster tools, brodar, tarif webmaster, agence web Protonwebmaster, webdesigner, création de site internet pas cher sur Bourges, développeur wordpress, développeur joomla, flyers"/>
+    <meta name="geo.region" content="Centre-Val de Loire" />
+    <meta name="geo.position" content="47.1851005554,2.61315989494" />
+    <meta name="geo.placename" content="Protonwebmaster" />
+    <meta name="dcterms.Identifier" content="https://www.protonwebmaster.com/" />
+    <meta name="dcterms.Format" content="text/html" />
+    <meta name="dcterms.Relation" content="PROTONWEBMASTER" />
+    <meta name="dcterms.Language" content="fr" />
+    <meta name="dcterms.Publisher" content="PROTONWEBMASTER" />
+    <meta name="dcterms.Type" content="text/html" />
+    <meta name="dcterms.Creator" content="Protonwebmaster" />
+    <meta name="dcterms.Coverage" content="https://www.protonwebmaster.com/" />
+    <meta name="dcterms.Rights" content="Copyright &copy;2020 Protonwebmaster." />
     <meta name="author" content="Protonwebmaster - webmaster freelance">
     <meta name="publisher" content="BRODAR">
     <link rel="image_src" href="https://www.protonwebmaster.site/imgproton/logo/logo-protonwebmaster-14f3.png">
@@ -27,8 +39,14 @@
       <meta property="og:description" content="Webmaster freelance à Bourges - Cher (18), Agence Protonwebmaster, création de site internet, flyers, logo à Bourges"/>
       <meta property="og:url" content="https://www.protonwebmaster.com/">
       <meta property="og:site_name" content="Protonwebmaster" />
-      <meta property="article:publisher" content="https://www.facebook.com/Protonwebmaster-108879627389463/" />
+      <meta property="article:publisher" content="https://www.facebook.com/protonwebmaster/" />
       <meta property="og:image" content="https://www.protonwebmaster.site/imgproton/logo/logo-protonwebmaster-14f3.png">
+      <meta property="og:see_also" content="https://twitter.com/@protonwebmaster" />
+      <meta property="og:see_also" content="https://www.facebook.com/protonwebmaster" />
+      <meta property="og:see_also" content="https://fr.linkedin.com/in/brodarfrederic" />
+      <meta property="og:see_also" content="https://github.com/protonwebmaster" />
+      <meta property="og:see_also" content="https://protonwebmaster.business.site/" />
+      <meta property="og:see_also" content="https://www.tidio.com/talk/a4awdc1i2s8kzk0u1horagmyqfznx9v5" />
       <meta name="twitter:card" content="summary">
       <meta name="twitter:site" content="@protonwebmaster">
       <meta name="twitter:title" content="protonwebmaster - Conseil et développement Web">
@@ -38,23 +56,15 @@
       <meta name="twitter:domain" content="https://www.protonwebmaster.com/">
       <meta name="twitter:image" content="https://www.protonwebmaster.site/imgproton/logo/logo-protonwebmaster-14f3.png">
       <meta name="twitter:url" content="https://twitter.com/protonwebmaster" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="mobile-web-app-capable" content="yes">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="%PUBLIC_URL%/drawable-hdpi-icon.png"
-    />
+    <link rel="apple-touch-icon" sizes="76x76" href="%PUBLIC_URL%/drawable-hdpi-icon.png" />
     <!--     Fonts and icons     -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"
-    />
-    <link
-      href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" rel="stylesheet" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -85,34 +95,32 @@
   <body>
     <div class="sk-pulse"></div>
     <noscript> You need to enable JavaScript to run this app. </noscript>
-    <style>
-      .loader {
-  border: 16px solid #e5fcfd; /* Light grey */
-  border-top: 16px solid #3498db; /* Blue */
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  animation: spin 2s linear infinite;
-  background-color: #e5fcfd;
+<style>
+.loader {
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        border: 16px solid #e5fcfd; /* Light grey */
+        border-top: 16px solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: spin 2s linear infinite;
+        background-color: #e5fcfd;
 }
 
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-    </style>
+</style>
     <div id="root">
-      <div class="loader"></div> 
+        <div class="loader"></div>
     </div>
     <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-ls
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
        <script src="https://cdn.rawgit.com/muicss/loadjs/4.2.0/dist/loadjs.js"></script>
        https://github.com/yuanyan/halogen
     -->
