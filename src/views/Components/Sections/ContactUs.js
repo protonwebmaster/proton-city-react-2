@@ -13,7 +13,7 @@ import emailjs from "emailjs-com";
 import styles from "assets/jss/material-kit-react/components/customInputStyle.js";
 import "animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
-import image from "assets/img/bg7.jpg";
+import image from "assets/img/bg7-min.jpg";
 
 const useStyles = makeStyles(styles);
 

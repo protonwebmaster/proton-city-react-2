@@ -11,20 +11,20 @@ import SettingsApplicationsSharpIcon from "@material-ui/icons/SettingsApplicatio
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import NavPills from "components/NavPills/NavPills.js";
-import studio1 from "assets/img/examples/site.png";
-import studio2 from "assets/img/examples/login.png";
-import studio3 from "assets/img/examples/seo.png";
-import studio4 from "assets/img/examples/ssl.png";
-import studio5 from "assets/img/examples/database.png";
-import work1 from "assets/img/examples/prestashop.png";
-import work2 from "assets/img/examples/csv.png";
-import work3 from "assets/img/examples/woo.png";
-import work4 from "assets/img/examples/stripelogo.png";
-import work5 from "assets/img/examples/visa.png";
-import paypal from "assets/img/examples/paypal.png";
-import security from "assets/img/examples/security.png";
-import dns from "assets/img/examples/dns.png";
-import skype from "assets/img/examples/skype.png";
+import studio1 from "assets/img/examples/site-min.png";
+import studio2 from "assets/img/examples/login-min.png";
+import studio3 from "assets/img/examples/seo-min.png";
+import studio4 from "assets/img/examples/ssl-min.png";
+import studio5 from "assets/img/examples/database-min.png";
+import work1 from "assets/img/examples/prestashop-min.png";
+import work2 from "assets/img/examples/csv-min.png";
+import work3 from "assets/img/examples/woo-min.png";
+import work4 from "assets/img/examples/stripelogo-min.png";
+import work5 from "assets/img/examples/visa-min.png";
+import paypal from "assets/img/examples/paypal-min.png";
+import security from "assets/img/examples/security-min.png";
+import dns from "assets/img/examples/dns-min.png";
+import skype from "assets/img/examples/skype-min.png";
 
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 

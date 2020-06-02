@@ -13,23 +13,23 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import NavPills from "components/NavPills/NavPills.js";
 import ExpensPanel from "./SubSections/ExpensPanelSite.js";
-import studio1 from "assets/img/examples/stripelog.jpg";
+import studio1 from "assets/img/examples/stripelog-min.jpg";
 
-import work1 from "assets/img/examples/wordpress.png";
-import work2 from "assets/img/examples/netlify.jpg";
-import work4 from "assets/img/examples/joomla.png";
+import work1 from "assets/img/examples/wordpress-min.png";
+import work2 from "assets/img/examples/netlify-min.jpg";
+import work4 from "assets/img/examples/joomla-min.png";
 
-import prestashop from "assets/img/examples/prestashop.png";
-import themewpedit from "assets/img/examples/themewpedit.jpg";
-import prestashopedit from "assets/img/examples/prestashopedit.jpg";
-import product from "assets/img/examples/product.jpg";
-import visavuejs from "assets/img/examples/visa.jpg";
+import prestashop from "assets/img/examples/prestashop-min.png";
+import themewpedit from "assets/img/examples/themewpedit-min.jpg";
+import prestashopedit from "assets/img/examples/prestashopedit-min.jpg";
+import product from "assets/img/examples/product-min.jpg";
+import visavuejs from "assets/img/examples/visa-min.jpg";
 
-import logoex from "assets/img/examples/logoex.jpg";
-import flyer from "assets/img/examples/flyer.jpg";
-import carte from "assets/img/examples/carte.jpg";
-import cartem from "assets/img/examples/cartem.jpg";
-import flyerm from "assets/img/examples/flyersm.jpg";
+import logoex from "assets/img/examples/logoex-min.jpg";
+import flyer from "assets/img/examples/flyer-min.jpg";
+import carte from "assets/img/examples/carte-min.jpg";
+import cartem from "assets/img/examples/cartem-min.jpg";
+import flyerm from "assets/img/examples/flyersm-min.jpg";
 
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 

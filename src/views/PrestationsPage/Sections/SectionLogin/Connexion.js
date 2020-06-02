@@ -6,7 +6,7 @@ import styles from "assets/jss/material-kit-react/views/componentsSections/examp
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 import Modal from "./Modal";
-import okta from "assets/img/okta.png";
+import okta from "assets/img/okta-min.png";
 
 const useStyles = makeStyles(styles);
 

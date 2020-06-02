@@ -8,7 +8,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
-import otketo from "assets/img/otketo.jpg";
+import otketo from "assets/img/otketo-min.jpg";
 import styles from "assets/jss/material-kit-react/views/componentsSections/CicdStyle.js";
 import "animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";

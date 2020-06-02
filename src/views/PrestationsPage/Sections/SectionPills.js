@@ -12,14 +12,14 @@ import AssessmentIcon from "@material-ui/icons/Assessment";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import NavPills from "components/NavPills/NavPills.js";
-import whimsical from "assets/img/examples/whimsical.png";
-import elate from "assets/img/examples/Elate.jpg";
-import work1 from "assets/img/examples/wordpress.png";
-import work4 from "assets/img/examples/joomla.png";
-import chezmariesite from "assets/img/examples/chezmarie-site.jpg";
-import chezmariestore from "assets/img/examples/chezmarie.jpg";
-import mobileapp from "assets/img/examples/mobile-app.png";
-import analytics from "assets/img/examples/analytics.jpg";
+import whimsical from "assets/img/examples/whimsical-min.png";
+import elate from "assets/img/examples/Elate-min.jpg";
+import work1 from "assets/img/examples/wordpress-min.png";
+import work4 from "assets/img/examples/joomla-min.png";
+import chezmariesite from "assets/img/examples/chezmarie-site-min.jpg";
+import chezmariestore from "assets/img/examples/chezmarie-min.jpg";
+import mobileapp from "assets/img/examples/mobile-app-min.png";
+import analytics from "assets/img/examples/analytics-min.jpg";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/pillsStyle.js";
 

@@ -41,7 +41,7 @@ export default function Components() {
   return (
     <div>
       <SectionNavbars />
-      <Parallax image={require("assets/img/bg4.jpg")}>
+      <Parallax image={require("assets/img/bg4-min.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
