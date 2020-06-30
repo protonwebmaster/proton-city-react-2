@@ -6,6 +6,7 @@ import SnackbarContent from "components/Snackbar/SnackbarContent.js";
 import Clearfix from "components/Clearfix/Clearfix.js";
 import GridItem from "components/Grid/GridItem.js";
 import GridContainer from "components/Grid/GridContainer.js";
+import BlinkLink from "./BlinkLink";
 import styles from "assets/jss/material-kit-react/views/componentsSections/notificationsStyles.js";
 
 const useStyles = makeStyles(styles);
@@ -62,13 +63,9 @@ export default function SectionNotifications() {
             mieux vous connaître, l{"'"} autre plus complet  et de nature à
             mieux connaître vos exigences. Pour vous remercier de votre
             participation, si vous le souhaitez votre entreprise sera publiée
-            dans mon{" "}
-            <a
-              href="https://www.protonwebmaster.site/redirect/annuaire.php"
+            dans l{"'"}<a href="https://www.protonwebmaster.site/redirect/annuaire.php"
               target="parent"
-            >
-              {" "}
-              annuaire d{"'"} entreprises.
+            ><BlinkLink />
             </a>
           </p>
           <p>

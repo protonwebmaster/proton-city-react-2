@@ -30,12 +30,12 @@ export default function SectionDownload() {
             <h2>Graphiste webdesigner</h2>
             <div className={classes.h4a}>
                 <ul>
-                  <li>Création site vitrine (Statique).</li>
-                  <li>Création et maintenance site dynamique</li>
-                  <li>Spécialiste CMS : Wordpress & Joomla</li>
-                  <li>Installation & configuration site E-commerce</li>
-                  <li>Administration et maintenance </li>
-                  <li>Création de site web responsive & mobile first</li>
+                  <li>Logo</li>
+                  <li>Carte de visite</li>
+                  <li>Flyer</li>
+                  <li>Retouche photo</li>
+                  <li>Réalisation 3D</li>
+                  <li>Analyse et recherche d'image.</li>
                 </ul>           
             </div>
             </ScrollAnimation>
