@@ -75,6 +75,7 @@ export default function Components() {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <GridItem md={12} className={classes.textCenter}>
           <ButtonLoader />
+          <h4>Je vous accompagne vers le chemin de la réussite.</h4>
         </GridItem>
         <ScrollableAnchor id={"section-p1"}>
           <div></div>
