@@ -11,7 +11,11 @@
   <loc>https://www.protonwebmaster.com/</loc>
   <lastmod>2020-07-01T14:05:06+00:00</lastmod>
 </url>
+<<<<<<< HEAD
 <url>
+=======
+ <url>
+>>>>>>> master
   <loc>https://www.protonwebmaster.com/landing-page</loc>
   <lastmod>2020-07-01T14:05:06+00:00</lastmod>
 </url>
@@ -32,4 +36,8 @@
   <lastmod>2020-07-01T14:05:06+00:00</lastmod>
 </url>
 
+<<<<<<< HEAD
 </urlset>
+=======
+</urlset>
+>>>>>>> master
