@@ -38,8 +38,8 @@ export default function SectionExamples() {
                 />
               </ScrollAnimation>
               <Button color="primary" size="lg" simple>
-                Rigueur et précision pour un résultat
-                <br /> optimal.
+                Rigueur et précision pour<br /> 
+                un résultat optimal.
               </Button>
             </Link>
           </GridItem>

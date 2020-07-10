@@ -105,7 +105,7 @@ export default function SectionDownload() {
               color="rose"
               size="lg"
               >
-              Démonstration Connexion securisée
+              Démo Connexion securisée
             </Button>
             </Link>
           </ScrollAnimation>

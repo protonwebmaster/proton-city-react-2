@@ -48,15 +48,11 @@ export default function Footer(props) {
                 Projeqtor
               </a>
             </ListItem>
+            <Link to="prestations-page" className={classes.link}>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href=""
-                className={classes.block}
-                target="_blank"
-              >
-                Connexion
-              </a>
-            </ListItem>
+                  Connexion
+                  </ListItem>
+              </Link>
             <Link to="legale-page" className={classes.link}>
             <ListItem className={classes.inlineBlock}>
               <p
@@ -69,7 +65,7 @@ export default function Footer(props) {
           </List>
         </div>
        <div className={classes.right}><a href="tel:0644636004">Tel: 06.44.63.60.04 - </a>
-           &copy; {1900 + new Date().getYear()} - protonwebmaster.com         
+           &copy; {1900 + new Date().getYear()} - protonwebmaster.com - ReactJs Website.       
        </div>
       </div>
    </footer>
