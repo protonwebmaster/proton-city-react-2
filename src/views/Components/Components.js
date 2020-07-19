@@ -51,7 +51,9 @@ export default function Components() {
                 </Pulse>
                 <Bounce>
                   <h3 className={classes.subtitle}>
-                    Brodar Frédéric - Développeur web.
+                    <a href="https://fredericbrodar.com">
+                      <strong>Brodar Frédéric - Développeur web</strong>
+                    </a>
                   </h3>
                 </Bounce>
                 <a href="#section-p1">

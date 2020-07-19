@@ -43,7 +43,7 @@ export default function SectionNavbars() {
                       active
                       color="transparent"
                     >
-                      Acceuil
+                      Accueil
                     </Button>
                   </ListItem>
                 </Link>
