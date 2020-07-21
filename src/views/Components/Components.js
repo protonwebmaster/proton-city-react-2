@@ -77,7 +77,29 @@ export default function Components() {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <GridItem md={12} className={classes.textCenter}>
           <ButtonLoader />
-          <h4>Je vous accompagne vers le chemin de la réussite.</h4>
+          <h4>Développeur web et Webdesigner,</h4>
+          <h5>
+            je vous propose des solutions complètes de développement et de
+            marketing de sites Web axées sur vos objectifs:
+          </h5>
+          <p>
+            <ul>
+              <li>
+                Définition de l{"'"}objectif avec une présentation technique et
+                fonctionnelle.
+              </li>
+              <li>
+                Elaboration du cahier des charges, et de la charte graphique.
+              </li>
+              <li>
+                L{"'"}expression des besoins et les vulnérabilités de securité.
+              </li>
+              <li>
+                Le choix de la méthode de travail qui repose sur la méthode
+                Agile.
+              </li>
+            </ul>
+          </p>
         </GridItem>
         <ScrollableAnchor id={"section-p1"}>
           <div></div>

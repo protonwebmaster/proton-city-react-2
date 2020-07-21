@@ -10,6 +10,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import { Link } from "react-router-dom";
 import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
+import image0 from "assets/img/proton-sendingblue-5a.jpg";
 import image1 from "assets/img/bg-min.jpg";
 import image2 from "assets/img/bg2-min.jpg";
 import image3 from "assets/img/bg3-min.jpg";
@@ -25,7 +26,7 @@ export default function SectionCarousel() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 700,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true
@@ -37,6 +38,21 @@ export default function SectionCarousel() {
           <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
             <Card carousel>
               <Carousel {...settings}>
+                <div>
+                  <Link to="" className={classes.link}>
+                    <img
+                      src={image0}
+                      alt="First slide"
+                      className="slick-image"
+                    />
+                  </Link>
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      395,00€ votre site pro.
+                    </h4>
+                  </div>
+                </div>
                 <div>
                   <Link to="pricing-page" className={classes.link}>
                     <img
