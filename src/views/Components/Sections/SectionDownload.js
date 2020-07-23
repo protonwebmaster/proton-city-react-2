@@ -70,7 +70,17 @@ export default function SectionDownload() {
               >
                 Google Webmasters.
               </a>
-              </div>
+              <br />
+              Etude de mots-clés pour générer du traffic.
+              <br />
+              Monétisation avec : {" "}
+               <a
+                href="https://www.google.fr/intl/fr/adsense/start/"
+                target="_blank"
+              >
+                 Google AdSense.
+              </a>
+          </div>
             </ScrollAnimation>
           </GridItem>
           <GridItem xs={12} sm={8} md={6}>

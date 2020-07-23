@@ -58,10 +58,31 @@ export default function Footer(props) {
               <p
                 className={classes.block}
                 >
-                Mentions legales
+                Mentions légales
               </p>
             </ListItem>
             </Link>
+            <ListItem className={classes.inlineBlock}>
+                Partenaires:
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+               <a
+                href="https://www.docimage.fr/"
+                className={classes.block}
+                target="_blank"
+              >
+               <img src="https://www.docimage.fr/wp-content/themes/docimage/images/logo2020.png" alt="docimage" height="30px" width="40px"/> 
+              </a>
+            </ListItem>
+            <ListItem className={classes.inlineBlock}>
+               <a
+                href="https://www.psicom18.fr/"
+                className={classes.block}
+                target="_blank"
+              >
+                <img src="https://www.psicom18.fr/images/psicom.png" alt="Psicom" height="30px" width="40px"/> 
+              </a>
+            </ListItem>
           </List>
         </div>
        <div className={classes.right}><a href="tel:0644636004">Tel: 06.44.63.60.04 - </a>
