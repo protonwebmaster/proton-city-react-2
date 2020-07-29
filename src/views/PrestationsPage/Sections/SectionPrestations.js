@@ -23,6 +23,27 @@ export default function SectionPrestations() {
               animateOut="bounceOutLeft"
             >
               <h2>Des possibilités infinies...</h2>
+              <p></p>
+              <ul>
+                <li>
+                  - Des ressources infinies avec WordPress, Bootstrap et
+                  Materialize.
+                </li>
+                <li>
+                  - Une solution complète de vente en ligne avec un système de
+                  paiement sécurisé avec Prestashop ou Magento.
+                </li>
+                <li>
+                  - Un projet de création graphique à l{"'"}image de votre
+                  activité.
+                </li>
+              </ul>
+              <p>
+                Administration système Linux, pour les configuration serveur
+                Apache Ssl ou Nginx, messagerie avec smtp et sms, test de
+                vulnérabilités et détection en matières de sécurité des
+                applications.
+              </p>
             </ScrollAnimation>
           </GridItem>
         </GridContainer>

@@ -85,7 +85,7 @@ export default function Footer(props) {
             </ListItem>
           </List>
         </div>
-       <div className={classes.right}><a href="tel:0644636004">Tel: 06.44.63.60.04 - </a>
+       <div className={classes.right}>Brodar Frédéric 3 Rond Point Jacques Coeur 18220 RIANS - <a href="tel:0644636004">Tel: 06.44.63.60.04 - </a>
            &copy; {1900 + new Date().getYear()} - protonwebmaster.com - ReactJs Website.       
        </div>
       </div>
