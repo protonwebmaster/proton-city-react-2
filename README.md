@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6418cf33-9138-49ba-92b5-04a5ee3300de/deploy-status)](https://app.netlify.com/sites/stupefied-snyder-249add/deploys)
 
-Protonwebmaster - Bordar Frédéric
+Protonwebmaster - Brodar Frédéric
 
 Site React.js
 
@@ -13,11 +13,11 @@ Vous pouvez faire face à de nombreux défis lors de la création d'une applicat
 Cependant, tous sont surmontables et ils ne valent certainement pas la peine d'éviter React et toutes ses capacités fantastiques.
 
 
+[<img src="https://blog.ippon.fr/content/images/2016/04/react-javascript.png" />]
 
 
 
 
 
-! Une partie du projet comporte du code sous Copyright, ce code à été rajouté au template d'origine.
 
-©2020. Tous Droits Réservés. Brodar Frédéric - exonet3i  (www.exonet3i.com).
+©2020. Tous Droits Réservés. Brodar Frédéric - protonwebmaster (www.protonwebmaster.com).

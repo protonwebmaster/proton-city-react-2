@@ -91,6 +91,17 @@ export default function SectionNavbars() {
                     </Button>
                   </ListItem>
                 </Link>
+                <ListItem className={classes.listItem}>
+                  <Button
+                    className={classes.navLink + " " + classes.navLinkActive}
+                    active
+                    color="transparent"
+                  >
+                    <a href="https://www.fredericbrodar.com">
+                      <strong>Dev</strong>
+                    </a>
+                  </Button>
+                </ListItem>
               </List>
             }
           />
