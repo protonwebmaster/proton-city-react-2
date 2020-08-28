@@ -50,7 +50,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Webmaster"
-              description="Je développe votre identité numérique, votre projet personnel ou professionnel est sûr d'aquerir un grand potentiel avec les outils et les fournisseurs de service que j'ai choisi : Google Webmaster, Netlify, Rancher, et Cloudflare."
+              description="Je développe votre identité numérique, votre projet personnel ou professionnel est sûr d'acquérir un grand potentiel avec les outils et les fournisseurs de service que j'ai choisi : Google Webmaster, Netlify, Rancher, et Cloudflare."
               icon={Web}
               iconColor="info"
               vertical

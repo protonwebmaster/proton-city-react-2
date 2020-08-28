@@ -47,7 +47,7 @@ export default function PicturesPage() {
               <div className={classes.profile}>
                 <div></div>
                 <div className={classes.name}>
-                  <h3 className={classes.title}>Ce que je sais faire.</h3>
+                  <h3 className={classes.title}>Ce que je vous propose.</h3>
                   <h6>DESIGNER</h6>
                 </div>
               </div>
