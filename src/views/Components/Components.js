@@ -47,12 +47,12 @@ export default function Components() {
             <GridItem>
               <div className={classes.brand}>
                 <Pulse>
-                  <h1 className={classes.title}>Protonwebmaster.</h1>
+                  <h1 className={classes.title}>Protonwebmaster</h1>
                 </Pulse>
                 <Bounce>
                   <h3 className={classes.subtitle}>
                     <a href="https://fredericbrodar.com">
-                      <strong>Brodar Frédéric - Développeur web</strong>
+                      <strong>Frédéric Brodar - Développeur web</strong>
                     </a>
                   </h3>
                 </Bounce>
