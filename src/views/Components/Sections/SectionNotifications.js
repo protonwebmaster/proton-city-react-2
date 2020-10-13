@@ -116,12 +116,12 @@ export default function SectionNotifications() {
           </p>
           <h5>Une garantie de fiabilité.</h5>
           <p>
-            Il y a différentes manières de créer un site internet, présenter des
-            produits différents c{"'"}est s{"'"}adapter au projet, mon nouveau
-            site internet <a href="fredericbrodar.com">fredericbrodar.com</a>{" "}
-            est un site statique, la présentation de nouvelles applications pour
-            des besoins spécifiques en authentification et en solution de
-            paiement est ici en démonstration, les différents tests, l{"'"}
+            Il y a différentes manières de créer un site internet, et c{"'"}est
+            dans mon offre. Mon nouveau site internet{" "}
+            <a href="fredericbrodar.com">fredericbrodar.com</a> est un site
+            statique, conçu pour la présentation de nouvelles applications, des
+            besoins spécifiques en authentification et en solution de paiement
+            est ici en démonstration, les différents tests et l{"'"}
             évaluation des coûts d{"'"}utilisation présente une garantie de
             fiabilité de ces produits.
           </p>
