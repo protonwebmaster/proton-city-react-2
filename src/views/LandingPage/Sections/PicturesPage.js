@@ -68,7 +68,7 @@ export default function PicturesPage() {
                     tabContent: (
                       <GridContainer justify="center">
                         <GridItem xs={12} sm={12} md={4}>
-                          <a href="https://www.protonwebmaster.site/">
+                          <a href="https://dev.fredericbrodar.com/">
                             <img
                               alt="ChezMarie"
                               src={studio1}
@@ -102,7 +102,7 @@ export default function PicturesPage() {
                     tabContent: (
                       <GridContainer justify="center">
                         <GridItem xs={12} sm={12} md={4}>
-                          <a href="https://www.protonwebmaster.site/mstore/index.php?">
+                          <a href="https://dev.fredericbrodar.com/mstore/index.php?">
                             <img
                               alt="Store"
                               src={work1}

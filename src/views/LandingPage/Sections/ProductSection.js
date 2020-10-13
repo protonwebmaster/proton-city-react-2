@@ -28,14 +28,12 @@ export default function ProductSection() {
             Je suis développeur web et web mobile, webmaster et webdesigner.
           </h3>
           <h5 className={classes.description}>
-            <a href="https://www.protonwebmaster.site/redirect/exonet3i.php">
-              Autodidacte
-            </a>{" "}
-            dans le domaine du numérique depuis 2014, au cours de ces années je
-            me suis formé dans le vaste domaine qu{"'"}est le numérique, en
-            abordant les technologies innovantes qui se projettent dans un dans
-            un avenir à long terme. En 2019, j{"'"}ai obtenu le Titre de
-            développeur web et web mobile, un{" "}
+            <a href="https://fredericbrodar.com">Autodidacte</a> dans le domaine
+            du numérique depuis 2014, au cours de ces années je me suis formé
+            dans le vaste domaine qu{"'"}est le numérique, en abordant les
+            technologies innovantes qui se projettent dans un dans un avenir à
+            long terme. En 2019, j{"'"}ai obtenu le Titre de développeur web et
+            web mobile, un{" "}
             <strong>
               <a href="https://info.exonet3i.com/directweb/camw2-7u/BDD/index.php">
                 challenge

@@ -16,8 +16,7 @@ export default class ButtonLoader extends Component {
     //Faking API call here
     setTimeout(() => {
       this.setState({ loading: false });
-      window.location =
-        "https://www.protonwebmaster.site/pdf/titreprobrodar.pdf";
+      window.location = "https://dev.fredericbrodar.com/pdf/titreprobrodar.pdf";
     }, 4000);
   };
 

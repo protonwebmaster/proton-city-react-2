@@ -41,7 +41,7 @@ export default function Footer(props) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.protonwebmaster.site/projeqtor/view/main.php"
+                href="https://dev.fredericbrodar.com/projeqtor/view/main.php"
                 className={classes.block}
                 target="_blank"
               >
@@ -50,8 +50,14 @@ export default function Footer(props) {
             </ListItem>
             <Link to="prestations-page" className={classes.link}>
             <ListItem className={classes.inlineBlock}>
-                  Connexion
-                  </ListItem>
+            <a
+                href="https://fredericbrodar.com/auth0/sts/"
+                className={classes.block}
+                target="_blank"
+              >
+                Connexion/Inscription
+              </a>                  
+            </ListItem>
               </Link>
             <Link to="legale-page" className={classes.link}>
             <ListItem className={classes.inlineBlock}>
@@ -67,25 +73,17 @@ export default function Footer(props) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
                <a
-                href="https://www.docimage.fr/"
+                href="https://www.bourges.infoptimum.com/pro/rians/developpement-web-base-de-donnee-sites-internetcyber-securite-consulting-webdesign/protonwebmaster-850.html"
                 className={classes.block}
                 target="_blank"
               >
-               <img src="https://www.docimage.fr/wp-content/themes/docimage/images/logo2020.png" alt="docimage" height="30px" width="40px"/> 
+               <img src="https://www.bourges.infoptimum.com/images/mod-logo.png" alt="infoptimum" height="37px" width="200px"/> 
               </a>
             </ListItem>
-            <ListItem className={classes.inlineBlock}>
-               <a
-                href="https://www.psicom18.fr/"
-                className={classes.block}
-                target="_blank"
-              >
-                <img src="https://www.psicom18.fr/images/psicom.png" alt="Psicom" height="30px" width="40px"/> 
-              </a>
-            </ListItem>
+          
           </List>
         </div>
-       <div className={classes.right}>Brodar Frédéric 3 Rond Point Jacques Coeur 18220 RIANS - <a href="tel:0644636004">Tel: 06.44.63.60.04 - </a>
+       <div className={classes.right}>Brodar Frédéric 3 Rond Point Jacques Coeur 18220 RIANS - <a href="tel:0659910270">Tél: 06.59.91.02.70 - </a>
            &copy; {1900 + new Date().getYear()} - protonwebmaster.com - <a href="https://fr.reactjs.org/">ReactJs</a> Website. Webmaster Bourges.       
        </div>
       </div>

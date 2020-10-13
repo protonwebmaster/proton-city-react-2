@@ -86,7 +86,7 @@ export default function ProductPage() {
                     tabContent: (
                       <GridContainer justify="center">
                         <GridItem xs={12} sm={12} md={4}>
-                          <a href="https://www.frederic-brodar.site/brodar/dev/">
+                          <a href="https://fredericbrodar.com/brodar/dev/">
                             <img
                               alt="wordpress"
                               src={work1}
@@ -124,7 +124,7 @@ export default function ProductPage() {
                     tabContent: (
                       <GridContainer justify="center">
                         <GridItem xs={12} sm={12} md={4}>
-                          <a href="https://www.protonwebmaster.site/mstore/">
+                          <a href="https://dev.fredericbrodar.com/mstore/">
                             <img
                               alt="prestashop"
                               src={prestashop}

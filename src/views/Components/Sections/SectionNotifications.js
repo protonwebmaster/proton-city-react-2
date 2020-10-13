@@ -18,7 +18,7 @@ export default function SectionNotifications() {
       <div className={classes.container}>
         <div className={classes.title}>
           <div className={classes.stitle}>
-            <h4>Une nouvelle Agence Web.</h4>
+            <h4>Des Solutions Web innovantes.</h4>
           </div>
           <p>
             Un nouveau souffle pour votre entreprise : Une agence créative
@@ -31,7 +31,7 @@ export default function SectionNotifications() {
       <SnackbarContent
         message={
           <span>
-            <a href="https://www.protonwebmaster.site/redirect/sondage.php">
+            <a href="https://dev.fredericbrodar.com/limesurvey/index.php/974242?newtest=Y">
               <b>
                 <strong>Questionnaire en ligne</strong>
               </b>
@@ -63,15 +63,16 @@ export default function SectionNotifications() {
             mieux vous connaître, l{"'"} autre plus complet  et de nature à
             mieux connaître vos exigences. Pour vous remercier de votre
             participation, si vous le souhaitez votre entreprise sera publiée
-            dans l{"'"}<a href="https://www.protonwebmaster.site/redirect/annuaire.php"
+            dans l{"'"}
+            <a
+              href="https://dev.fredericbrodar.com/wp/wordpress/"
               target="parent"
-            ><BlinkLink />
+            >
+              <BlinkLink />
             </a>
           </p>
           <p>
-            <a href="https://www.protonwebmaster.site/redirect/exonet3i.php">
-              Mes années d{"'"}expérience
-            </a>{" "}
+            <a href="https://fredericbrodar.com">Mes années d{"'"}expérience</a>{" "}
             mon permis de découvrir, et de me créer une directive autour de ce
             qu{"'"}on appelle le plus communément :{" "}
             <a href="http://www.open-source-guide.com/">L{"'"}open source</a>.
@@ -106,22 +107,42 @@ export default function SectionNotifications() {
             Se doter de nouveaux outils représentatifs de la culture{" "}
             <a href="https://www.redhat.com/fr/topics/devops">DevOps</a>, ainsi
             que ceux de la méthode{" "}
-            <a href="https://www.protonwebmaster.site/pdf/13th-annual-state-of-agile-report.pdf">
+            <a href="dev.fredericbrodar.com/pdf/13th-annual-state-of-agile-report.pdf">
               Agile
             </a>{" "}
             est un atout supplémentaire. Le client devient acteur dans les
             différentes opérations de conception, en complément de mon
             imagination et de mon savoir-faire.
           </p>
+          <h5>Une garantie de fiabilité.</h5>
+          <p>
+            Il y a différentes manières de créer un site internet, présenter des
+            produits différents c{"'"}est s{"'"}adapter au projet, mon nouveau
+            site internet <a href="fredericbrodar.com">fredericbrodar.com</a>{" "}
+            est un site statique, la présentation de nouvelles applications pour
+            des besoins spécifiques en authentification et en solution de
+            paiement est ici en démonstration, les différents tests, l{"'"}
+            évaluation des coûts d{"'"}utilisation présente une garantie de
+            fiabilité de ces produits.
+          </p>
+          <h5>Définir une stratégie de communication.</h5>
+          <p>
+            Etablir une stratégie de communication, de nos jours est primodial
+            pour la survie de l{"'"}entreprise. De nouvelles idées permettent de
+            développer des relations avec ses clients, ou avec des prospects:{" "}
+            <a href="https://dev.protonwebmaster.com/">Protongame</a>, qui est
+            en cours de création.
+          </p>
+          <p></p>
           <hr></hr>
         </div>
       </div>
       <GridContainer className={classes.textCenter} justify="center">
         <GridItem xs={12} sm={8} md={4}>
-          <a href="https://www.protonwebmaster.site/img/circleci.jpg">
+          <a href="https://dev.fredericbrodar.com/img/circleci.jpg">
             <img
               alt="devops"
-              src="https://www.protonwebmaster.site/img/circleci.jpg"
+              src="https://dev.fredericbrodar.com/img/circleci.jpg"
             />
           </a>
         </GridItem>

@@ -182,7 +182,7 @@ export default function SectionPills() {
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={6}>
                             <a
-                              href="https://www.protonwebmaster.site/"
+                              href="https://dev.fredericbrodar.com/"
                               className={classes.block}
                             >
                               <img
@@ -200,7 +200,7 @@ export default function SectionPills() {
                           </GridItem>
                           <GridItem xs={12} sm={12} md={6}>
                             <a
-                              href="https://www.protonwebmaster.site/mstore/"
+                              href="https://dev.fredericbrodar.com/mstore/"
                               className={classes.block}
                             >
                               <img
