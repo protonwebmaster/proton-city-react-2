@@ -50,10 +50,8 @@ export default function Components() {
                   <h1 className={classes.title}>Protonwebmaster</h1>
                 </Pulse>
                 <Bounce>
-                  <h3 className={classes.subtitle}>
-                    <a href="https://fredericbrodar.com">
-                      <strong>Application web - Audit de sécurité</strong>
-                    </a>
+                  <h3 className={classes.subtitle}>                    
+                      <strong>Application web - Audit de sécurité</strong>                   
                   </h3>
                 </Bounce>
                 <a href="#section-p1">

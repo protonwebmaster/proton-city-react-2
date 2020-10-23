@@ -37,7 +37,7 @@ export default function SectionPills() {
                     tabContent: (
                       <span>
                         <h4>1. PRÉSENTATION DU SITE.</h4>
-                        <p>Site en cours de création.</p>
+                        <p>Protonwebmaster - Frédéric BRODAR.</p>
                         <p>
                           En vertu de l{"'"}article 6 de la loi n° 2004-575 du
                           21 juin 2004 pour la confiance dans l{"'"}économie
