@@ -10,7 +10,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import { Link } from "react-router-dom";
 import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
-import image0 from "assets/img/proton-sendingblue-5a.jpg";
+import image0 from "assets/img/landing-min.jpg";
 import image1 from "assets/img/bg-min.jpg";
 import image2 from "assets/img/bg2-min.jpg";
 import image3 from "assets/img/bg3-min.jpg";
@@ -49,7 +49,7 @@ export default function SectionCarousel() {
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
-                      395,00€ votre site pro.
+                      Conception web.
                     </h4>
                   </div>
                 </div>

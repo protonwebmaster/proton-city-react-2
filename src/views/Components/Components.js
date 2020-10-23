@@ -52,7 +52,7 @@ export default function Components() {
                 <Bounce>
                   <h3 className={classes.subtitle}>
                     <a href="https://fredericbrodar.com">
-                      <strong>Frédéric Brodar - Développeur web</strong>
+                      <strong>Application web - Audit de sécurité</strong>
                     </a>
                   </h3>
                 </Bounce>
@@ -77,16 +77,14 @@ export default function Components() {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <GridItem md={12} className={classes.textCenter}>
           <ButtonLoader />
-          <h4>Développeur web et Webdesigner,</h4>
+          <h4>Solutions web et Cybersécurité</h4>
           <h5>
-            je vous propose des solutions complètes de développement et de
-            marketing de sites Web axées sur vos objectifs:
+            On vous propose des solutions complètes de développement, d'audits de sécurité et de marketing de sites Web axées sur vos objectifs:
           </h5>
           <p>
             <ul>
               <li>
-                Définition de l{"'"}objectif avec une présentation technique et
-                fonctionnelle.
+                Définition de l{"'"}objectif avec une présentation technique et fonctionnelle.
               </li>
               <li>
                 Elaboration du cahier des charges, et de la charte graphique.
@@ -95,8 +93,10 @@ export default function Components() {
                 L{"'"}expression des besoins et les vulnérabilités de securité.
               </li>
               <li>
-                Le choix de la méthode de travail qui repose sur la méthode
-                Agile.
+                Le choix de la méthode de travail qui repose sur la méthode Agile.
+              </li>
+              <li>
+                Un audit de sécurité complet, pour déceler les vulnérabilités dans vos applications.
               </li>
             </ul>
           </p>
