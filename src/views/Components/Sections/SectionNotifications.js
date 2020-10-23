@@ -78,8 +78,8 @@ export default function SectionNotifications() {
           </p>
           <p>
             Mais se tenir fortement dans cette direction, qui est aussi une méthode de travail, requière certaines qualités et compétences, une souplesse de raisonnement avec une adaptation technique. Bien sûr il
-            est plus facile d{"'"}acheter un logiciel en lien, qui peut rendre le travail plus facile, mais les coûts pour l{"'"}utilisateur final sera plus élevé. En ce qui me concerne, cette directive me permet
-            donc de garder une indépendance, et de proposer un plus large éventail de solutions à des prix très compétitifs.
+            est plus facile d{"'"}acheter un logiciel en lien, qui peut rendre le travail plus facile, mais les coûts pour l{"'"}utilisateur final sera plus élevé. Cette directive nous permet de vous proposer 
+            un plus large éventail de solutions à des prix très compétitifs.
           </p>
           <h5>Mes nouveaux atouts.</h5>
           <p>
@@ -92,7 +92,7 @@ export default function SectionNotifications() {
           </p>
           <h5>Une garantie de fiabilité.</h5>
           <p>
-            Il y a différentes manières de créer un site internet, et c{"'"}est dans notre offre. Mon nouveau site internet{" "}<a href="fredericbrodar.com">fredericbrodar.com</a> est un site
+            Il y a différentes manières de créer un site internet, et c{"'"}est dans notre offre. Le site internet{" "}<a href="fredericbrodar.com">fredericbrodar.com</a> est un site
             statique, conçu pour la présentation de nouvelles applications, des besoins spécifiques en authentification et en solution de paiement est ici en démonstration, les différents tests et l{"'"}
             évaluation des coûts d{"'"}utilisation présente une garantie de fiabilité de ces produits.
           </p>

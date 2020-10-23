@@ -38,7 +38,7 @@ export default function LandingPage() {
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <Pulse>
-                <h1 className={classes.title}>Mon parcours.</h1>
+                <h1 className={classes.title}>Frédéric Brodar.</h1>
               </Pulse>
               <Bounce>
                 <h4>Développeur web et web mobile.</h4>
