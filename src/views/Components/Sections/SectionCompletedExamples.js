@@ -4,7 +4,6 @@ import { makeStyles } from "@material-ui/core/styles";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-
 import styles from "assets/jss/material-kit-react/views/componentsSections/completedStyle.js";
 import "animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
@@ -35,7 +34,43 @@ export default function SectionCompletedExamples() {
               </div>
             </ScrollAnimation>
           </GridItem>
+          <GridItem xs={12} sm={12} md={8}>
+            <ScrollAnimation
+              animateIn="bounceInRight"
+              animateOut="bounceOutLeft"
+            >
+              <h2>Audit de sécurité.</h2>
+              <div className={classes.h4a}>
+                <ul>
+                  <li>Test d'intrusion.</li>
+                  <li>Scan de vulnérabilités.</li>                 
+                </ul>            
+              </div>
+            </ScrollAnimation>
+          </GridItem>    
         </GridContainer>
+        <GridContainer className={classes.textCenter} justify="center">
+        <GridItem xs={12} sm={8} md={4}>
+        <div className={classes.img4a}>
+          <a href="https://dev.fredericbrodar.com/img/audit.png">
+            <img
+              alt="test intrusion"
+              src="https://dev.fredericbrodar.com/img/audit.png"
+            />
+          </a>
+          </div>
+        </GridItem>
+        <GridItem xs={12} sm={8} md={4}>
+        <div className={classes.img4a}>
+          <a href="https://dev.fredericbrodar.com/img/arachni-audit.png">
+            <img
+              alt="audit"
+              src="https://dev.fredericbrodar.com/img/arachni-audit.png"
+            />
+          </a>
+          </div>
+        </GridItem>
+      </GridContainer>
       </div>
     </div>
   );

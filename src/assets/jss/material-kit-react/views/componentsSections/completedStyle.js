@@ -13,9 +13,13 @@ const completedStyle = {
     "@media (max-width:768px)": {
       fontSize: "95%"
     },
-    "@media (max-width:600px)": {
-      fontSize: "90%"
+    "@media (max-width:400px)": {
+      fontSize: "80%"
     }
+  },
+  img4a: {
+    border: "2px solid;",
+    boxShadow: "5px 5px 3px 0px rgba(0,0,0,0.75)"    
   }
 };
 
