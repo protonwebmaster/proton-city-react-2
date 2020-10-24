@@ -22,8 +22,9 @@ export default function SectionNotifications() {
           </div>
           <p>
             Un nouveau souffle pour votre entreprise : Créativité et innovation,
-            avec de nouvelles expériences numériques. Nous sommes à l'écoute de vos attentes, afin de vous proposer des offres
-            adaptées à vos besoins et à votre budget.
+            avec de nouvelles expériences numériques. Nous sommes à l{"'"}écoute
+            de vos attentes, afin de vous proposer des offres adaptées à vos
+            besoins et à votre budget.
           </p>
         </div>
       </div>
@@ -46,14 +47,22 @@ export default function SectionNotifications() {
         <div className={classes.title}>
           <h5>Une meilleure collaboration.</h5>
           <p>
-            Un service de qualité, avec des produits et des expériences numériques qui ont un impact
-            durable pour votre entreprise, imagination et nouvelles technologies pour vous aider à vous développer dans cette voie.
-            Chez nous le client est au centre des opérations, de la conception au développement à la réalisation. Cette collaboration est constante
-            dans les diverses étapes d{"'"}un projet. Avec toute la puissance de la containerisation, la présentation et la disponibilité des
-            démonstrations en live, n{"'"}a jamais été aussi efficace. Avec la culture DevOps, cette méthode de collaboration permet d{"'"}atteindre des d{"'"} objectifs
-             commerciaux améliorés, ce qui améliore du même coup les rapports avec le client. Nos questionnaires en vue d'une étude préalable de vos exigeances,
-              l{"'"}un simple et rapide ont été mis en place pour mieux vous connaître. Ainsi, au terme de l'un des questionnaires mis à votre disposition, et sur simple demande, 
-              votre entreprise pourra être publiée dans l{"'"}
+            Un service de qualité, avec des produits et des expériences
+            numériques qui ont un impact durable pour votre entreprise,
+            imagination et nouvelles technologies pour vous aider à vous
+            développer dans cette voie. Chez nous le client est au centre des
+            opérations, de la conception au développement à la réalisation.
+            Cette collaboration est constante dans les diverses étapes d{"'"}un
+            projet. Avec toute la puissance de la containerisation, la
+            présentation et la disponibilité des démonstrations en live, n{"'"}a
+            jamais été aussi efficace. Avec la culture DevOps, cette méthode de
+            collaboration permet d{"'"}atteindre des d{"'"} objectifs
+            commerciaux améliorés, ce qui améliore du même coup les rapports
+            avec le client. Nos questionnaires en vue d{"'"}une étude préalable
+            de vos exigeances, l{"'"}un simple et rapide ont été mis en place
+            pour mieux vous connaître. Ainsi, au terme de l{"'"}un des
+            questionnaires mis à votre disposition, et sur simple demande, votre
+            entreprise pourra être publiée dans l{"'"}
             <a
               href="https://dev.fredericbrodar.com/wp/wordpress/"
               target="parent"
@@ -63,42 +72,62 @@ export default function SectionNotifications() {
           </p>
           <p>
             <a href="https://fredericbrodar.com">Des années d{"'"}expérience</a>{" "}
-            on permit de découvrir, et de créer une directive autour de ce qu{"'"}on appelle le plus communément :{" "}
+            on permit de découvrir, et de créer une directive autour de ce qu
+            {"'"}on appelle le plus communément :{" "}
             <a href="http://www.open-source-guide.com/">L{"'"}open source</a>.
-            Les capacités et les moyens dont on dispose actuellement, tournent autour de cet axe, dont les principales ressources se trouvent sur notre compte{" "}
-            <a href="https://github.com/">Github</a>.
+            Les capacités et les moyens dont on dispose actuellement, tournent
+            autour de cet axe, dont les principales ressources se trouvent sur
+            notre compte <a href="https://github.com/">Github</a>.
           </p>
           <p>
-            Ce réservoir de créativité est une source inépuisable pour amorcer un projet avec un coût dérisoire, bien sûr cela ce place en complément des services qui y sont rattaché : les{" "}
+            Ce réservoir de créativité est une source inépuisable pour amorcer
+            un projet avec un coût dérisoire, bien sûr cela ce place en
+            complément des services qui y sont rattaché : les{" "}
             <a href="https://www.lebigdata.fr/definition-saas">SaaS</a>,{" "}
             <a href="https://www.redhat.com/fr/topics/cloud-computing/what-is-caas">
               Caas
             </a>{" "}
-            et autres. Mais dans certains cas, pour certaines demandes spécifiques, les ressources qui sortent de cette gratuité s{"'"}avèrent être très utiles.
+            et autres. Mais dans certains cas, pour certaines demandes
+            spécifiques, les ressources qui sortent de cette gratuité s{"'"}
+            avèrent être très utiles.
           </p>
           <p>
-            Mais se tenir fortement dans cette direction, qui est aussi une méthode de travail, requière certaines qualités et compétences, une souplesse de raisonnement avec une adaptation technique. Bien sûr il
-            est plus facile d{"'"}acheter un logiciel en lien, qui peut rendre le travail plus facile, mais les coûts pour l{"'"}utilisateur final sera plus élevé. Cette directive nous permet de vous proposer 
-            un plus large éventail de solutions à des prix très compétitifs.
+            Mais se tenir fortement dans cette direction, qui est aussi une
+            méthode de travail, requière certaines qualités et compétences, une
+            souplesse de raisonnement avec une adaptation technique. Bien sûr il
+            est plus facile d{"'"}acheter un logiciel en lien, qui peut rendre
+            le travail plus facile, mais les coûts pour l{"'"}utilisateur final
+            sera plus élevé. Cette directive nous permet de vous proposer un
+            plus large éventail de solutions à des prix très compétitifs.
           </p>
           <h5>Mes nouveaux atouts.</h5>
           <p>
             Se doter de nouveaux outils représentatifs de la culture{" "}
-            <a href="https://www.redhat.com/fr/topics/devops">DevOps</a>, ainsi que ceux de la méthode{" "}
+            <a href="https://www.redhat.com/fr/topics/devops">DevOps</a>, ainsi
+            que ceux de la méthode{" "}
             <a href="dev.fredericbrodar.com/pdf/13th-annual-state-of-agile-report.pdf">
               Agile
             </a>{" "}
-            est un atout supplémentaire. Le client devient acteur dans les différentes opérations de conception.
+            est un atout supplémentaire. Le client devient acteur dans les
+            différentes opérations de conception.
           </p>
           <h5>Références et démonstrations.</h5>
           <p>
-            Le site internet{" "}<a href="fredericbrodar.com">fredericbrodar.com</a> est un site statique, conçu pour la présentation de nouvelles applications, des besoins spécifiques en authentification et en solution de paiement est ici en démonstration, les différents tests et l{"'"}
-            évaluation des coûts d{"'"}utilisation présente une garantie de fiabilité de ces produits.
+            Le site internet <a href="fredericbrodar.com">fredericbrodar.com</a>{" "}
+            est un site statique, conçu pour la présentation de nouvelles
+            applications, des besoins spécifiques en authentification et en
+            solution de paiement est ici en démonstration, les différents tests
+            et l{"'"}
+            évaluation des coûts d{"'"}utilisation présente une garantie de
+            fiabilité de ces produits.
           </p>
           <h5>Définir une stratégie de communication.</h5>
           <p>
-            Etablir une stratégie de communication, de nos jours est primordial pour la survie de l{"'"}entreprise. De nouvelles idées permettent de développer des relations avec ses clients, ou avec des prospects:{" "}
-            <a href="https://dev.protonwebmaster.com/">Protongame</a>, qui est en cours de création.
+            Etablir une stratégie de communication, de nos jours est primordial
+            pour la survie de l{"'"}entreprise. De nouvelles idées permettent de
+            développer des relations avec ses clients, ou avec des prospects:{" "}
+            <a href="https://dev.protonwebmaster.com/">Protongame</a>, qui est
+            en cours de création.
           </p>
           <p></p>
           <hr></hr>

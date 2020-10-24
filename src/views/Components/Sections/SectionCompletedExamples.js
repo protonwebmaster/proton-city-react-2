@@ -42,35 +42,35 @@ export default function SectionCompletedExamples() {
               <h2>Audit de sécurité.</h2>
               <div className={classes.h4a}>
                 <ul>
-                  <li>Test d'intrusion.</li>
-                  <li>Scan de vulnérabilités.</li>                 
-                </ul>            
+                  <li>Test d{"'"}intrusion.</li>
+                  <li>Scan de vulnérabilités.</li>
+                </ul>
               </div>
             </ScrollAnimation>
-          </GridItem>    
+          </GridItem>
         </GridContainer>
         <GridContainer className={classes.textCenter} justify="center">
-        <GridItem xs={12} sm={8} md={4}>
-        <div className={classes.img4a}>
-          <a href="https://dev.fredericbrodar.com/img/audit.png">
-            <img
-              alt="test intrusion"
-              src="https://dev.fredericbrodar.com/img/audit.png"
-            />
-          </a>
-          </div>
-        </GridItem>
-        <GridItem xs={12} sm={8} md={4}>
-        <div className={classes.img4a}>
-          <a href="https://dev.fredericbrodar.com/img/arachni-audit.png">
-            <img
-              alt="audit"
-              src="https://dev.fredericbrodar.com/img/arachni-audit.png"
-            />
-          </a>
-          </div>
-        </GridItem>
-      </GridContainer>
+          <GridItem xs={12} sm={8} md={4}>
+            <div className={classes.img4a}>
+              <a href="https://dev.fredericbrodar.com/img/audit.png">
+                <img
+                  alt="test intrusion"
+                  src="https://dev.fredericbrodar.com/img/audit.png"
+                />
+              </a>
+            </div>
+          </GridItem>
+          <GridItem xs={12} sm={8} md={4}>
+            <div className={classes.img4a}>
+              <a href="https://dev.fredericbrodar.com/img/arachni-audit.png">
+                <img
+                  alt="audit"
+                  src="https://dev.fredericbrodar.com/img/arachni-audit.png"
+                />
+              </a>
+            </div>
+          </GridItem>
+        </GridContainer>
       </div>
     </div>
   );

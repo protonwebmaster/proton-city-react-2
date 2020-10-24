@@ -102,6 +102,17 @@ export default function SectionNavbars() {
                     </a>
                   </Button>
                 </ListItem>
+                <ListItem className={classes.listItem}>
+                  <Button
+                    className={classes.navLink + " " + classes.navLinkActive}
+                    active
+                    color="transparent"
+                  >
+                    <a href="https://dev.protonwebmaster.com">
+                      <strong>Blog</strong>
+                    </a>
+                  </Button>
+                </ListItem>
               </List>
             }
           />

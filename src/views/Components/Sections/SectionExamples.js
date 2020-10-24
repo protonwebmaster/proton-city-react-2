@@ -22,8 +22,8 @@ export default function SectionExamples() {
     <div className={classes.section}>
       <div className={classes.container}>
         <GridContainer justify="center">
-          <GridItem xs={12} sm={12} md={6}>           
-              <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+          <GridItem xs={12} sm={12} md={6}>
+            <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
               <a href="https://fredericbrodar.com/#tech">
                 <img
                   src={landing}
@@ -36,17 +36,17 @@ export default function SectionExamples() {
                     classes.imgFluid
                   }
                 />
-                </a>
-              </ScrollAnimation>
-              <Button color="primary" size="lg" simple>
-                Solution de gestion des identités
-                <br />
-                et authentification forte.
-              </Button>           
+              </a>
+            </ScrollAnimation>
+            <Button color="primary" size="lg" simple>
+              Solution de gestion des identités
+              <br />
+              et authentification forte.
+            </Button>
           </GridItem>
-          <GridItem xs={12} sm={12} md={6}>           
-              <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
-                <a href="https://fredericbrodar.com/#tech">
+          <GridItem xs={12} sm={12} md={6}>
+            <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+              <a href="https://fredericbrodar.com/#tech">
                 <img
                   src={profile}
                   alt="https://codepen.io/JavaScriptJunkie/pen/YzzNGeR"
@@ -58,11 +58,13 @@ export default function SectionExamples() {
                     classes.imgFluid
                   }
                 />
-                </a>
-              </ScrollAnimation>
-              <Button color="primary" size="lg" simple>
-                Des solutions e-commerce, avec Stripe.
-              </Button>          
+              </a>
+            </ScrollAnimation>
+            <Button color="primary" size="lg" simple>
+              Des solutions e-commerce,
+              <br />
+              avec Stripe.
+            </Button>
           </GridItem>
         </GridContainer>
       </div>
