@@ -2,6 +2,7 @@ import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // core components
+import { Link } from "react-router-dom";
 import SnackbarContent from "components/Snackbar/SnackbarContent.js";
 import Clearfix from "components/Clearfix/Clearfix.js";
 import GridItem from "components/Grid/GridItem.js";
@@ -111,6 +112,25 @@ export default function SectionNotifications() {
             est un atout supplémentaire. Le client devient acteur dans les
             différentes opérations de conception.
           </p>
+          <p>Déploiement continu avec <a href="https://circleci.com/">CicleCI</a> et <a href="https://docs.netlify.com/configure-builds/get-started/">Netlify</a>:</p>
+          <GridContainer className={classes.textCenter} justify="center">
+        <GridItem xs={12} sm={8} md={4}>
+          <a href="https://dev.fredericbrodar.com/img/circleci.jpg">
+            <img
+              alt="circleci"
+              src="https://dev.fredericbrodar.com/img/circleci.jpg"
+            />
+          </a>
+        </GridItem>
+        <GridItem xs={12} sm={8} md={4}>
+          <a href="https://dev.fredericbrodar.com/img/netlify.jpg">
+            <img
+              alt="netlify"
+              src="https://dev.fredericbrodar.com/img/netlify.jpg"
+            />
+          </a>
+        </GridItem>
+      </GridContainer>
           <h5>Références et démonstrations.</h5>
           <p>
             Le site internet <a href="fredericbrodar.com">fredericbrodar.com</a>{" "}
@@ -121,28 +141,43 @@ export default function SectionNotifications() {
             évaluation des coûts d{"'"}utilisation présente une garantie de
             fiabilité de ces produits.
           </p>
+          <ul>
+            <li>
+            <a href="https://fredericbrodar.com/#auth">GIA ou Gestion des Identités ( Avec ou sans mot de passe ).</a>
+            </li>
+            <li>
+            <a href="https://fredericbrodar.com/#tech">Intégration Stripe sur tous les types de site.</a>
+            </li>
+          </ul>
           <h5>Définir une stratégie de communication.</h5>
           <p>
             Etablir une stratégie de communication, de nos jours est primordial
             pour la survie de l{"'"}entreprise. De nouvelles idées permettent de
             développer des relations avec ses clients, ou avec des prospects:{" "}
-            <a href="https://dev.protonwebmaster.com/">Protongame</a>, qui est
-            en cours de création.
+            <a href="https://fredericbrodar.com/protongame/">Protongame</a>.
           </p>
-          <p></p>
+          <p>L'expérience utilisateur (UX) permet d'envisager une dimension plus grande dans la recherche de prospects, avec l'utilisation d'une application qui fait interagir le visiteur. 
+            <a href="https://fredericbrodar.com/protongame/"> Protongame</a> est un jeu de hasard très simple, l'utilisateur en cas de victoire gagne une importante remise sur nos 
+            <Link to="prestations-page" className={classes.link}> produits</Link>. 
+            Cette application est suivie par une analytique précise, une intégration <a href="https://segment.com/docs/">segment</a> avec une connexion <a href="https://pipedream.com/">pipedream</a> pour collecter 
+            des informations relatives à cette expérience utilisateur.
+          </p>
           <hr></hr>
         </div>
       </div>
       <GridContainer className={classes.textCenter} justify="center">
         <GridItem xs={12} sm={8} md={4}>
-          <a href="https://dev.fredericbrodar.com/img/circleci.jpg">
+        <div>
+          <a href="https://dev.fredericbrodar.com/img/pipedream.jpg">
             <img
-              alt="devops"
-              src="https://dev.fredericbrodar.com/img/circleci.jpg"
+              alt="pipedream"
+              src="https://dev.fredericbrodar.com/img/pipedream.jpg"
             />
           </a>
+          </div>
         </GridItem>
       </GridContainer>
+      <hr></hr>
     </div>
   );
 }
