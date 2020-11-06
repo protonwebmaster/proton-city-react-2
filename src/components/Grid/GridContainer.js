@@ -10,6 +10,7 @@ const styles = {
   grid: {
     marginRight: "-15px",
     marginLeft: "-15px",
+    overflow: "hidden",
     width: "auto"
   }
 };

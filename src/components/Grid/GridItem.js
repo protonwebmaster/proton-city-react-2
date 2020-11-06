@@ -13,6 +13,7 @@ const styles = {
     paddingRight: "15px",
     paddingLeft: "15px",
     paddingBottom: "20px",
+    overflow: "hidden",
     flexBasis: "auto"
   }
 };
