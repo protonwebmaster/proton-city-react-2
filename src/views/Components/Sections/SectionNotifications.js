@@ -8,6 +8,7 @@ import Clearfix from "components/Clearfix/Clearfix.js";
 import GridItem from "components/Grid/GridItem.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import BlinkLink from "./BlinkLink";
+import FacebookLike from "./FacebookLike";
 import styles from "assets/jss/material-kit-react/views/componentsSections/notificationsStyles.js";
 
 const useStyles = makeStyles(styles);
@@ -40,7 +41,8 @@ export default function SectionNotifications() {
                 est une composante essentielle de la stratégie de communication.
                 La crise du sanitaire du Covid a fait naître un autre
                 environnement de travail, et une autre nécessité est apparue:
-                adapter l{"'"}entreprise pour qu{"'"}elle survive. L{"'"}ère du
+                adapter l{"'"}entreprise pour qu{"'"}elle survive.</p>
+                <p>L{"'"}ère du
                 numérique doit être entièrement intégrée dans les moyens mis en
                 oeuvre pour la réussite d{"'"}un projet.
               </p>
@@ -62,6 +64,7 @@ export default function SectionNotifications() {
               Propulsez votre entreprise dans l{"'"}ère du numérique avec
               Protonwebmaster.
             </p>
+            <FacebookLike />
           </GridItem>
         </GridContainer>
       </div>
