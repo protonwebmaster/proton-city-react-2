@@ -28,6 +28,42 @@ export default function SectionNotifications() {
             besoins et à votre budget.
           </p>
         </div>
+        <GridContainer className={classes.textCenter} justify="center">
+          <GridItem xs={12} sm={8} md={4}>
+            <div className={classes.img4a}>
+              <p>
+                Pourquoi à t{"'"}on besoin aujourd{"'"}hui d{"'"}un site
+                internet ?
+              </p>
+              <p>
+                Le site internet représente la référence de l{"'"}Entreprise, il
+                est une composante essentielle de la stratégie de communication.
+                La crise du sanitaire du Covid a fait naître un autre
+                environnement de travail, et une autre nécessité est apparue:
+                adapter l{"'"}entreprise pour qu{"'"}elle survive. L{"'"}ère du
+                numérique doit être entièrement intégrée dans les moyens mis en
+                oeuvre pour la réussite d{"'"}un projet.
+              </p>
+            </div>
+          </GridItem>
+          <GridItem xs={12} sm={8} md={4}>
+            <div className={classes.img4a}>
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/uvCKTAZA0Gw?start=5"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="video"
+              />
+            </div>
+            <p>
+              Propulsez votre entreprise dans l{"'"}ère du numérique avec
+              Protonwebmaster.
+            </p>
+          </GridItem>
+        </GridContainer>
       </div>
       <SnackbarContent
         message={
@@ -112,25 +148,32 @@ export default function SectionNotifications() {
             est un atout supplémentaire. Le client devient acteur dans les
             différentes opérations de conception.
           </p>
-          <p>Déploiement continu avec <a href="https://circleci.com/">CicleCI</a> et <a href="https://docs.netlify.com/configure-builds/get-started/">Netlify</a>:</p>
+          <p>
+            Déploiement continu avec <a href="https://circleci.com/">CicleCI</a>{" "}
+            et{" "}
+            <a href="https://docs.netlify.com/configure-builds/get-started/">
+              Netlify
+            </a>
+            :
+          </p>
           <GridContainer className={classes.textCenter} justify="center">
-        <GridItem xs={12} sm={8} md={4}>
-          <a href="https://dev.fredericbrodar.com/img/circleci.jpg">
-            <img
-              alt="circleci"
-              src="https://dev.fredericbrodar.com/img/circleci.jpg"
-            />
-          </a>
-        </GridItem>
-        <GridItem xs={12} sm={8} md={4}>
-          <a href="https://dev.fredericbrodar.com/img/netlify.jpg">
-            <img
-              alt="netlify"
-              src="https://dev.fredericbrodar.com/img/netlify.jpg"
-            />
-          </a>
-        </GridItem>
-      </GridContainer>
+            <GridItem xs={12} sm={8} md={4}>
+              <a href="https://dev.fredericbrodar.com/img/circleci.jpg">
+                <img
+                  alt="circleci"
+                  src="https://dev.fredericbrodar.com/img/circleci.jpg"
+                />
+              </a>
+            </GridItem>
+            <GridItem xs={12} sm={8} md={4}>
+              <a href="https://dev.fredericbrodar.com/img/netlify.jpg">
+                <img
+                  alt="netlify"
+                  src="https://dev.fredericbrodar.com/img/netlify.jpg"
+                />
+              </a>
+            </GridItem>
+          </GridContainer>
           <h5>Références et démonstrations.</h5>
           <p>
             Le site internet <a href="fredericbrodar.com">fredericbrodar.com</a>{" "}
@@ -143,10 +186,14 @@ export default function SectionNotifications() {
           </p>
           <ul>
             <li>
-            <a href="https://fredericbrodar.com/#auth">GIA ou Gestion des Identités ( Avec ou sans mot de passe ).</a>
+              <a href="https://fredericbrodar.com/#auth">
+                GIA ou Gestion des Identités ( Avec ou sans mot de passe ).
+              </a>
             </li>
             <li>
-            <a href="https://fredericbrodar.com/#tech">Intégration Stripe sur tous les types de site.</a>
+              <a href="https://fredericbrodar.com/#tech">
+                Intégration Stripe sur tous les types de site.
+              </a>
             </li>
           </ul>
           <h5>Définir une stratégie de communication.</h5>
@@ -156,24 +203,34 @@ export default function SectionNotifications() {
             développer des relations avec ses clients, ou avec des prospects:{" "}
             <a href="https://fredericbrodar.com/protongame/">Protongame</a>.
           </p>
-          <p>L'expérience utilisateur (UX) permet d'envisager une dimension plus grande dans la recherche de prospects, avec l'utilisation d'une application qui fait interagir le visiteur. 
-            <a href="https://fredericbrodar.com/protongame/"> Protongame</a> est un jeu de hasard très simple, l'utilisateur en cas de victoire gagne une importante remise sur nos 
-            <Link to="prestations-page" className={classes.link}> produits</Link>. 
-            Cette application est suivie par une analytique précise, une intégration <a href="https://segment.com/docs/">segment</a> avec une connexion <a href="https://pipedream.com/">pipedream</a> pour collecter 
-            des informations relatives à cette expérience utilisateur.
+          <p>
+            L{"'"}expérience utilisateur (UX) permet d{"'"}envisager une
+            dimension plus grande dans la recherche de prospects, avec l{"'"}
+            utilisation d{"'"}une application qui fait interagir le visiteur.
+            <a href="https://fredericbrodar.com/protongame/"> Protongame</a> est
+            un jeu de hasard très simple, l{"'"}utilisateur en cas de victoire
+            gagne une importante remise sur nos
+            <Link to="prestations-page" className={classes.link}>
+              {" "}
+              produits
+            </Link>
+            . Cette application est suivie par une analytique précise, une
+            intégration <a href="https://segment.com/docs/">segment</a> avec une
+            connexion <a href="https://pipedream.com/">pipedream</a> pour
+            collecter des informations relatives à cette expérience utilisateur.
           </p>
           <hr></hr>
         </div>
       </div>
       <GridContainer className={classes.textCenter} justify="center">
         <GridItem xs={12} sm={8} md={4}>
-        <div>
-          <a href="https://dev.fredericbrodar.com/img/pipedream.jpg">
-            <img
-              alt="pipedream"
-              src="https://dev.fredericbrodar.com/img/pipedream.jpg"
-            />
-          </a>
+          <div>
+            <a href="https://dev.fredericbrodar.com/img/pipedream.jpg">
+              <img
+                alt="pipedream"
+                src="https://dev.fredericbrodar.com/img/pipedream.jpg"
+              />
+            </a>
           </div>
         </GridItem>
       </GridContainer>
