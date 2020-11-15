@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import charte from "assets/pdf/charteGraphique.pdf";
+import charte from "assets/pdf/cgv-protonwebmaster-2020.pdf";
 import Button from "components/CustomButtons/Button.js";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
@@ -35,8 +35,8 @@ export default class ButtonLoader extends Component {
         rel="noopener noreferrer"
       >
         {loading && <MDBIcon icon="cog" spin size="2x" fixed />}
-        {loading && <span className="sr-only">Loading...</span>}
-        {!loading && <span>C.G.V. ( Pdf en Cours)</span>}
+        {loading && <span className="sr-only">Connexion...</span>}
+        {!loading && <span>C.G.V.</span>}
       </Button>
     );
   }
