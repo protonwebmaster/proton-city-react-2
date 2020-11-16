@@ -5,7 +5,6 @@ import classNames from "classnames";
 import { makeStyles } from "@material-ui/core/styles";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
-import GridItem from "components/Grid/GridItem.js";
 import Iframe from "react-iframe";
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
@@ -21,21 +20,10 @@ export default function PicturesPage() {
   return (
     <div className={classNames(classes.main, classes.mainRaised)}>
       <div style={spacestyle}>
-        <div className={classes.container}>
-          <GridContainer justify="center">
-            <GridItem xs={12} sm={12} md={6}>
-              <div className={classes.profile}>
-                <div></div>
-                <div className={classes.name}>
-                  <h3 className={classes.title}>
-                    Votre budget en quelques clicks.
-                  </h3>
-                  <h6>Les tarifs 2020 en vigueur.</h6>
-                </div>
-              </div>
-            </GridItem>
-          </GridContainer>
+        <div className={classes.container}>     
           <div className={classes.description}>
+          <h4>Les tarifs 2020 en vigueur.</h4>
+                    <h6>WordPress Pack 1</h6>
             <p>Des solutions innovantes pour votre projet.</p>
           </div>
           <GridContainer justify="center">

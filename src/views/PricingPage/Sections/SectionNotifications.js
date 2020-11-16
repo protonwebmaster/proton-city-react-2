@@ -20,9 +20,9 @@ export default function SectionNotifications() {
       <SnackbarContent
         message={
           <span>
-            <a href="https://dev.fredericbrodar.com/limesurvey/index.php/974242?newtest=Y">
+            <a href="https://fredericbrodar.com/pdf/tarifs-protonwebmaster-2020-3.pdf">
               <b>
-                <strong>Quels sont vos besoins actuels ?</strong>
+                <strong>Téléchargez nos tarifs 2020 - Site internet statique - Site WordPress</strong>
               </b>
             </a>
           </span>
