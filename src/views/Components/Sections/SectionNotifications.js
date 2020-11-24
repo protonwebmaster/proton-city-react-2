@@ -10,6 +10,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import BlinkLink from "./BlinkLink";
 import FacebookLike from "./FacebookLike";
 import styles from "assets/jss/material-kit-react/views/componentsSections/notificationsStyles.js";
+import mongodb from "assets/img/pipedream-mongodb.jpg";
 
 const useStyles = makeStyles(styles);
 
@@ -41,10 +42,11 @@ export default function SectionNotifications() {
                 est une composante essentielle de la stratégie de communication.
                 La crise du sanitaire du Covid a fait naître un autre
                 environnement de travail, et une autre nécessité est apparue:
-                adapter l{"'"}entreprise pour qu{"'"}elle survive.</p>
-                <p>L{"'"}ère du
-                numérique doit être entièrement intégrée dans les moyens mis en
-                oeuvre pour la réussite d{"'"}un projet.
+                adapter l{"'"}entreprise pour qu{"'"}elle survive.
+              </p>
+              <p>
+                L{"'"}ère du numérique doit être entièrement intégrée dans les
+                moyens mis en oeuvre pour la réussite d{"'"}un projet.
               </p>
             </div>
           </GridItem>
@@ -221,22 +223,47 @@ export default function SectionNotifications() {
             intégration <a href="https://segment.com/docs/">segment</a> avec une
             connexion <a href="https://pipedream.com/">pipedream</a> pour
             collecter des informations relatives à cette expérience utilisateur.
+            Ces informations peuvent être stockées dans une base de données tel
+            que
+            <a href="https://www.mongodb.com/"> mongodb</a>.
           </p>
           <hr></hr>
+
+          <GridContainer className={classes.textCenter} justify="center">
+            <GridItem xs={12} sm={8} md={4}>
+              <div>
+                <a href="https://dev.fredericbrodar.com/img/pipedream.jpg">
+                  <img
+                    alt="pipedream"
+                    src="https://dev.fredericbrodar.com/img/pipedream.jpg"
+                  />
+                </a>
+              </div>
+            </GridItem>
+            <GridItem xs={12} sm={8} md={4}>
+              <a href="https://dev.fredericbrodar.com/img/pipedream-mongodb.jpg">
+                <img src={mongodb} alt="mongodb" />
+              </a>
+            </GridItem>
+          </GridContainer>
+          <p>
+            <a href="https://fredericbrodar.com/protongame/">Protongame</a> est
+            une application {"'"}Call-to-action{"'"}.{" "}
+            <a href="https://fr.sendinblue.com/blog/call-to-action-exemples-bonnes-pratiques/">
+              Un call-to-action (CTA)
+            </a>{" "}
+            se traduit en français par Bouton d{"'"}incitation à l{"'"}action.
+            Il est essentiel dans la transformation de votre audience en lead,
+            ou autrement dit, d{"'"}un visiteur inconnu à un prospect qualifié.
+            Il détient une place centrale dans une stratégie d{"'"}Inbound
+            Marketing. Bien sûr il faudra un peu d’imagination, pour mettre en
+            place cette stratégie, moi j{"'"}ai pensé à un simple jeu de hasard,
+            qui va permettre au candidat de gagner quelque chose en rapport avec
+            ce que l{"'"}on vend d’habitude, dans mon cas le produit le plus
+            courant est une site internet avec une remise importante.
+          </p>
         </div>
       </div>
-      <GridContainer className={classes.textCenter} justify="center">
-        <GridItem xs={12} sm={8} md={4}>
-          <div>
-            <a href="https://dev.fredericbrodar.com/img/pipedream.jpg">
-              <img
-                alt="pipedream"
-                src="https://dev.fredericbrodar.com/img/pipedream.jpg"
-              />
-            </a>
-          </div>
-        </GridItem>
-      </GridContainer>
       <hr></hr>
     </div>
   );

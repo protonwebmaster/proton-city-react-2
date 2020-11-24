@@ -4,13 +4,23 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
-  <loc>https://www.protonwebmaster.com/</loc>
-  <lastmod>2020-07-01T14:05:06+00:00</lastmod>
+  <loc>https://www.protonwebmaster.com/</loc> 
 </url>
-
-
+<url>
+ <loc>https://www.protonwebmaster.com/landing-page</loc>
+ </url>
+<url>
+  <loc>https://www.protonwebmaster.com/prestations-page</loc>
+  </url>
+<url>
+  <loc>https://www.protonwebmaster.com/engagements-page</loc>
+ </url>
+<url>
+  <loc>https://www.protonwebmaster.com/pricing-page</loc>
+ </url>
+<url>
+  <loc>https://www.protonwebmaster.com/legale-page</loc>
+ </url>
 </urlset>

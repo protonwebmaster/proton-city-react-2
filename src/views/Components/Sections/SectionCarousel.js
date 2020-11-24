@@ -16,7 +16,7 @@ import image2 from "assets/img/bg2-min.jpg";
 import image3 from "assets/img/bg3-min.jpg";
 import image4 from "assets/img/webhook-1-min.jpg";
 import image5 from "assets/img/webhook-2-min.jpg";
-
+import image6 from "assets/img/wordpress-min.jpg";
 import styles from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -110,6 +110,21 @@ export default function SectionCarousel() {
                     <h4>
                       <LocationOn className="slick-icons" />
                       Webhook
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <a href="https://www.moumatraiteur.com/">
+                    <img
+                      src={image6}
+                      alt="Third slide"
+                      className="slick-image"
+                    />
+                  </a>
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      WordPress
                     </h4>
                   </div>
                 </div>

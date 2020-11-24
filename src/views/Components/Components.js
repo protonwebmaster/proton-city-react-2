@@ -5,7 +5,7 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 import ScrollableAnchor from "react-scrollable-anchor";
-import ButtonLoader from "./ButtonLoader/call";
+import Activateur from "./Sections/SectionActivateur";
 // @material-ui/icons
 import ArrowDropDownCircleIcon from "@material-ui/icons/ArrowDropDownCircle";
 import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
@@ -74,7 +74,7 @@ export default function Components() {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         <GridItem md={12} className={classes.textCenter}>
-          <ButtonLoader />
+          <Activateur />
           <h4>Solutions web et Cybersécurité</h4>
           <h5>
             On vous propose des solutions complètes de développement, d'audits

@@ -1,0 +1,255 @@
+@font-face { 
+   font-family: "Ranchers"; 
+   src: url('../font/Ranchers-Regular.ttf'); 
+ }
+  
+@font-face { 
+    font-family: "Quicksand-Regular"; 
+    src: url('../font/Quicksand-VariableFont_wght.ttf'); 
+ }  
+
+html, body, .container {
+  height: auto;
+}
+
+/* Reset */
+html, body, p, a, div, section {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: "Quicksand-Regular";
+}
+
+body {
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center; 
+  color: #ffffff;
+  background-image: url(../images/protonwebmaster.jpg);
+  background-position: center center;  
+  background-repeat: no-repeat;    
+  background-attachment: fixed;  
+  background-size: cover;   
+  background-color:#464646;    
+    /* SHORTHAND CSS NOTATION
+     * background: url(background-photo.jpg) center center cover no-repeat fixed;
+     */ 
+}
+
+h1, p, blockquote {
+  font-size: clamp(var(--min), var(--val), var(--max));
+} 
+
+h1 {
+  margin: 0;
+  padding: 0;  
+  font-family: "Ranchers";
+  color: #efecec;
+  text-transform: uppercase;  
+  line-height: 50px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+h1 {
+  --min: 2em;
+  --val: 5vw;
+  --max: 3em;
+}
+
+a {
+  color: #ffffff;
+}
+
+p {
+  margin: 0 0 1em 0;  
+}
+
+p {
+  --min: 0.8em;
+  --val: 2.0vw;
+  --max: 1.1em;
+}
+
+strong {
+  font-weight: 700;
+}
+
+blockquote {
+  --min: 0.8em;
+  --val: 2.0vw;
+  --max: 1.1em;
+}
+
+blockquote {
+  display: block;
+  max-width: 767px;
+  height: auto;
+  margin: 15px auto;
+  padding: 15px;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.3);  
+  color: #e1e1e1;  
+  line-height: 28px;
+}
+
+/* Layout */
+
+.navbar {
+  width: 100%;
+  padding-bottom: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 40px;
+  z-index: 9999;
+  position: fixed;
+}
+
+  .inner {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+.navbar a {
+  display: inline-block;
+  border: 1px solid #fff;
+  font-size: 14px;
+  line-height: 24px;
+  border-radius: 3px;
+  padding: 2px 15px;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.container {
+  display: table;
+  padding-top: 80px;
+  width: 100%;
+}
+
+.content {
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px; 
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #023269dc;
+  box-shadow: 6px 6px 4px 1px rgba(0, 0, 0, 0.75);
+}
+
+/* Special */
+.sub-title {
+  margin: 50px auto;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+
+@keyframes example {
+  0%   { left:0px; top:0px;}
+  25%  { color: rgb(179, 255, 0); left:0px; top:-20px;}
+  50%  { left:5px; top:20px;}
+  75%  { color: rgba(0, 26, 255, 0.479); left:0px; top:-20px;}
+  100% { color: rgb(179, 255, 0); left:0px; top:0px;}
+}
+
+.button {
+  display: inline-block;
+  padding: 6px 10px;
+  color: #cafaea;
+  border: 1px solid #cafaea;
+  border-radius: 3px;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.ref {
+  width: 34%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-left: 33%;
+  margin-right: 33%;
+  text-align: center; 
+  font-size: 0.7em;
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(../images/protonwebmaster-mobile.jpg);
+  }
+	}
+
+/* Media Queries */
+@media only screen and (max-width: 340px) {
+  
+  .container {
+    position: relative;
+    display: block;
+    float: left;
+    vertical-align: baseline;
+    margin: 0 auto;
+    padding: 80px 0 0 0;
+  }
+  
+  #more-content {
+    float: left;
+    margin-right: 10px;
+    
+  }
+  
+  body h1 {    
+    line-height: 23px;
+  } 
+
+  .content, blockquote {  
+    display: inline;
+    margin: 0 auto;
+    padding-top: 80px;
+    vertical-align: baseline;
+  }
+
+  blockquote {
+    width: 150px;
+    margin: 15px auto;    
+    line-height: 21px;
+    background-color: transparent;
+  }
+
+  .sub-title {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .button {
+    max-width: 150px;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  p {
+    max-width: 150px;
+    margin: 0 auto;    
+    line-height: 20px;
+  }
+
+  html, body, .container {
+    height: auto;
+  }
+}
+
