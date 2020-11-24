@@ -35,6 +35,11 @@ const componentsStyle = {
   link: {
     textDecoration: "none"
   },
+
+  arrow: {
+    color: "red"
+  },
+
   textCenter: {
     textAlign: "center"
   }

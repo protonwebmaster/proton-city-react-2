@@ -10,7 +10,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import BlinkLink from "./BlinkLink";
 import FacebookLike from "./FacebookLike";
 import styles from "assets/jss/material-kit-react/views/componentsSections/notificationsStyles.js";
-import mongodb from "assets/img/pipedream-mongodb.jpg";
+import mongodb from "assets/img/pipedream-mongodb-min.jpg";
 
 const useStyles = makeStyles(styles);
 

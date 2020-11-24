@@ -54,15 +54,15 @@ export default function Components() {
                     <strong>Application web - Audit de sécurité</strong>
                   </h3>
                 </Bounce>
-                <a href="#section-p1">
+                <a className={classes.arrow} href="#section-p1">
                   <ArrowDropDownCircleIcon />
                 </a>
                 <br />
-                <a href="#section-p2">
+                <a className={classes.arrow} href="#section-p2">
                   <ArrowDropDownCircleIcon />
                 </a>
                 <br />
-                <a href="#section-p3">
+                <a className={classes.arrow} href="#section-p3">
                   <ArrowDropDownCircleIcon />
                 </a>
                 <br />

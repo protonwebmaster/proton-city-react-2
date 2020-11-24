@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a9d7b825ded3aaa3a16598a4025bb18",
+    "revision": "95c0421defff16a4dfe8c11e2f54ad10",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.1ad155c4.chunk.css"
   },
   {
-    "revision": "73a78e01f54929475eb8",
+    "revision": "8fe9ed71bcef11293d07",
     "url": "/static/css/main.dab32b74.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.d8c1d050.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "73a78e01f54929475eb8",
-    "url": "/static/js/main.7aaaad51.chunk.js"
+    "revision": "8fe9ed71bcef11293d07",
+    "url": "/static/js/main.ec9b4203.chunk.js"
   },
   {
     "revision": "deaf17d855cbdaf7344d",
@@ -38,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "14be1c6f14786c3bd07a5989392f1bda",
     "url": "/static/media/analytics-min.14be1c6f.jpg"
-  },
-  {
-    "revision": "1a60c7bfdabc54930ed2b6d38a814c19",
-    "url": "/static/media/anssi.1a60c7bf.png"
   },
   {
     "revision": "11911410dca2de148f30954eb2fd5eab",
@@ -232,8 +228,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/otketo-min.1c7ca251.jpg"
   },
   {
-    "revision": "87c0159ac3b417ac9c32dbd00a683105",
-    "url": "/static/media/pipedream-mongodb.87c0159a.jpg"
+    "revision": "cb57216bdbd9c9fa84a2dfc7f4b0e886",
+    "url": "/static/media/pipedream-mongodb-min.cb57216b.jpg"
   },
   {
     "revision": "b1962978ef61b5ba9342823a7d406ac0",
@@ -308,11 +304,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/woo-min.b0f06bdd.png"
   },
   {
-    "revision": "acbe8c3da281e2c234507f564b713df5",
-    "url": "/static/media/wordpress-min.acbe8c3d.png"
+    "revision": "97ae06518894f4664124758a23b894a0",
+    "url": "/static/media/wordpress-min.97ae0651.jpg"
   },
   {
-    "revision": "a53a34ad6205bb4a271cce18a781c8a2",
-    "url": "/static/media/wordpress.a53a34ad.jpg"
+    "revision": "acbe8c3da281e2c234507f564b713df5",
+    "url": "/static/media/wordpress-min.acbe8c3d.png"
   }
 ]);

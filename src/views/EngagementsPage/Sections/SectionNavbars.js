@@ -87,7 +87,7 @@ export default function SectionNavbars() {
                       active
                       color="transparent"
                     >
-                      Devis
+                      Tarifs
                     </Button>
                   </ListItem>
                 </Link>

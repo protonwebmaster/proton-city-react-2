@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.dab32b74.chunk.css",
-    "main.js": "/static/js/main.7aaaad51.chunk.js",
-    "main.js.map": "/static/js/main.7aaaad51.chunk.js.map",
+    "main.js": "/static/js/main.ec9b4203.chunk.js",
+    "main.js.map": "/static/js/main.ec9b4203.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.47788c5d.js",
     "runtime-main.js.map": "/static/js/runtime-main.47788c5d.js.map",
     "static/css/2.1ad155c4.chunk.css": "/static/css/2.1ad155c4.chunk.css",
     "static/js/2.d8c1d050.chunk.js": "/static/js/2.d8c1d050.chunk.js",
     "static/js/2.d8c1d050.chunk.js.map": "/static/js/2.d8c1d050.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d9627872e0bc5710e0ac4ea85c07f922.js": "/precache-manifest.d9627872e0bc5710e0ac4ea85c07f922.js",
+    "precache-manifest.be778791f91c7934ca62f61866e63669.js": "/precache-manifest.be778791f91c7934ca62f61866e63669.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.1ad155c4.chunk.css.map": "/static/css/2.1ad155c4.chunk.css.map",
     "static/css/main.dab32b74.chunk.css.map": "/static/css/main.dab32b74.chunk.css.map",
@@ -17,7 +17,6 @@
     "static/media/Elate-min.jpg": "/static/media/Elate-min.465a5105.jpg",
     "static/media/Protonwebmaster-tech2.pdf": "/static/media/Protonwebmaster-tech2.5a5245f9.pdf",
     "static/media/analytics-min.jpg": "/static/media/analytics-min.14be1c6f.jpg",
-    "static/media/anssi.png": "/static/media/anssi.1a60c7bf.png",
     "static/media/mdb.css": "/static/media/arrow_right.8ef6a08c.svg",
     "static/media/auth0.png": "/static/media/auth0.e2d993b7.png",
     "static/media/bg-min.jpg": "/static/media/bg-min.a88e4fb9.jpg",
@@ -50,7 +49,7 @@
     "static/media/netlify-min.jpg": "/static/media/netlify-min.c8405619.jpg",
     "static/media/okta-min.png": "/static/media/okta-min.8a06a4f6.png",
     "static/media/otketo-min.jpg": "/static/media/otketo-min.1c7ca251.jpg",
-    "static/media/pipedream-mongodb.jpg": "/static/media/pipedream-mongodb.87c0159a.jpg",
+    "static/media/pipedream-mongodb-min.jpg": "/static/media/pipedream-mongodb-min.cb57216b.jpg",
     "static/media/prestashop-min.png": "/static/media/prestashop-min.b1962978.png",
     "static/media/prestashopedit-min.jpg": "/static/media/prestashopedit-min.e0928281.jpg",
     "static/media/product-min.jpg": "/static/media/product-min.476c6ff4.jpg",
@@ -69,14 +68,14 @@
     "static/media/wireframe400.jpg": "/static/media/wireframe400.e7f5d5c0.jpg",
     "static/media/wireframe500.jpg": "/static/media/wireframe500.e2afb197.jpg",
     "static/media/woo-min.png": "/static/media/woo-min.b0f06bdd.png",
-    "static/media/wordpress-min.png": "/static/media/wordpress-min.acbe8c3d.png",
-    "static/media/wordpress.jpg": "/static/media/wordpress.a53a34ad.jpg"
+    "static/media/wordpress-min.jpg": "/static/media/wordpress-min.97ae0651.jpg",
+    "static/media/wordpress-min.png": "/static/media/wordpress-min.acbe8c3d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.47788c5d.js",
     "static/css/2.1ad155c4.chunk.css",
     "static/js/2.d8c1d050.chunk.js",
     "static/css/main.dab32b74.chunk.css",
-    "static/js/main.7aaaad51.chunk.js"
+    "static/js/main.ec9b4203.chunk.js"
   ]
 }
