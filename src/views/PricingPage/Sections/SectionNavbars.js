@@ -54,7 +54,7 @@ export default function SectionNavbars() {
                       active
                       color="transparent"
                     >
-                      Découvrir
+                      Parcours
                     </Button>
                   </ListItem>
                 </Link>

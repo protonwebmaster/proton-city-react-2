@@ -11,15 +11,12 @@ import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 import Footer from "components/Footer/Footer.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import CvLoader from "./Sections/ButtonLoader/catalogue";
 import SectionNavbars from "./Sections/SectionNavbars.js";
 import Parallax from "components/Parallax/Parallax.js";
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
 // Sections for this page
 import DevOps from "./Sections/SectionDevops";
-import Contact from "./Sections/SectionNotifications";
 import ProductSection from "./Sections/ProductSection.js";
-import Calculator from "./Sections/PicturesPage.js";
 import styled, { keyframes } from "styled-components";
 import { rubberBand } from "react-animations";
 import Pulse from "react-reveal/Pulse";
@@ -40,14 +37,12 @@ export default function PricingPage() {
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <Pulse>
-                <h1 className={classes.title}>La simulation.</h1>
+                <h1 className={classes.title}>DevOps automation</h1>
               </Pulse>
               <Bounce>
-                <h4>Calcul rapide de vos besoins en ligne.</h4>
+                <h4>Optimisation des changements et déploiement continu.</h4>
               </Bounce>
-              <br />
-              <CvLoader />
-              <br />
+              <br />         
               <a href="#section-p2">
                 <ArrowDropDownCircleIcon />
               </a>
@@ -62,9 +57,7 @@ export default function PricingPage() {
             <div></div>
           </ScrollableAnchor>
           <ProductSection />
-          <DevOps />
-          <Contact />
-          <Calculator />
+          <DevOps />                
           <GridItem md={12} className={classes.textCenter}>
             <a href="#section-p2">
               <ArrowUpwardIcon />

@@ -93,37 +93,7 @@ export default function SectionDownload() {
             </Button>
             </Link>
             </GridItem>
-        </GridContainer>
-        <br />
-        <br />
-        <GridContainer className={classes.textCenter} justify="center">
-          <GridItem xs={12} sm={12} md={8}>
-          <ScrollAnimation
-              animateIn="bounceInRight"
-              animateOut="bounceOutLeft"
-            >
-            <h2>L{"'"}interface utilisateur.</h2>
-            <div className={classes.h4a}>
-            L{"'"}API d{"'"}authentification <a href="https://developer.okta.com/">Okta</a> fournit des opérations pour 
-            <Link to="protected" className={classes.link}><Blink /></Link>
-            les utilisateurs, effectuer l{"'"}inscription et la
-            vérification multifactorielle, récupérer les mots de passe oubliés et
-            déverrouiller les comptes.
-            </div>
-            <Link to="prestations-page" className={classes.link}>
-            <Button
-              color="rose"
-              size="lg"
-              >
-              Démo Connexion securisée
-            </Button>
-            </Link>
-          </ScrollAnimation>
-          </GridItem>
-          <GridItem xs={12} sm={8} md={6}>
-              <Login />
-            </GridItem>
-        </GridContainer>
+        </GridContainer>           
        </div>
     </div>
   );

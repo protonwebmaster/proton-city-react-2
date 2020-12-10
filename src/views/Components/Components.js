@@ -17,11 +17,12 @@ import SectionNavbars from "./Sections/SectionNavbars.js";
 import Parallax from "components/Parallax/Parallax.js";
 import City from "./City/App";
 // sections for this page
-import SectionCarousel from "./Sections/SectionCarousel.js";
+import Catalogue from "./Sections/catalogue";
 import SectionCompletedExamples from "./Sections/SectionCompletedExamples.js";
 import SectionNotifications from "./Sections/SectionNotifications";
 import SectionExamples from "./Sections/SectionExamples.js";
 import SectionDownload from "./Sections/SectionDownload.js";
+import SectionAuth from "./Sections/SectionAuth.js";
 import ContactUs from "./Sections/ContactUs.js";
 import styles from "assets/jss/material-kit-react/views/components.js";
 import styled, { keyframes } from "styled-components";
@@ -54,6 +55,9 @@ export default function Components() {
                     <strong>Application web - Audit de sécurité</strong>
                   </h3>
                 </Bounce>
+                <br />
+                <Catalogue />
+                <br />
                 <a className={classes.arrow} href="#section-p1">
                   <ArrowDropDownCircleIcon />
                 </a>
@@ -75,6 +79,7 @@ export default function Components() {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <GridItem md={12} className={classes.textCenter}>
           <Activateur />
+          <div className={classNames(classes.cybs)}>
           <h4>Solutions web et Cybersécurité</h4>
           <h5>
             On vous propose des solutions complètes de développement, d'audits
@@ -102,12 +107,13 @@ export default function Components() {
               </li>
             </ul>
           </p>
+          </div>
         </GridItem>
         <ScrollableAnchor id={"section-p1"}>
           <div></div>
-        </ScrollableAnchor>
-        <SectionCarousel />
+        </ScrollableAnchor>       
         <SectionCompletedExamples />
+        <SectionDownload />
         <ScrollableAnchor id={"section-p2"}>
           <div></div>
         </ScrollableAnchor>
@@ -134,8 +140,8 @@ export default function Components() {
         ></CookieConsent>
         <SectionNotifications />
         <SectionExamples />
-        <City />
-        <SectionDownload />
+        <City />  
+        <SectionAuth />    
         <ScrollableAnchor id={"section-p3"}>
           <div></div>
         </ScrollableAnchor>

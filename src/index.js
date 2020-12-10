@@ -22,7 +22,7 @@ ReactDOM.render(
       <Route path="/landing-page" component={LandingPage} />
       <Route path="/prestations-page" component={PrestationsPage} />
       <Route path="/engagements-page" component={EngagementsPage} />
-      <Route path="/pricing-page" component={PricingPage} />
+      <Route path="/devops-page" component={PricingPage} />
       <Route path="/legale-page" component={LegalePage} />
       <Route path="/" component={Components} />
     </Switch>

@@ -42,6 +42,14 @@ const componentsStyle = {
 
   textCenter: {
     textAlign: "center"
+  },
+
+  cybs: {
+    fontWeight: "600",
+    background: "#D2F2FF",
+    padding: "15px",
+    borderRadius: "6px",
+    boxShadow: "0 0 29px 0 rgba(68, 88, 144, 0.12)"
   }
 };
 

@@ -80,14 +80,14 @@ export default function SectionNavbars() {
                     </Button>
                   </ListItem>
                 </Link>
-                <Link to="pricing-page" className={classes.link}>
+                <Link to="devops-page" className={classes.link}>
                   <ListItem className={classes.listItem}>
                     <Button
                       className={classes.navLink + " " + classes.navLinkActive}
                       active
                       color="transparent"
                     >
-                      Tarifs
+                      Technologie
                     </Button>
                   </ListItem>
                 </Link>

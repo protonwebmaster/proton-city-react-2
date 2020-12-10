@@ -32,6 +32,14 @@ export default function SectionCompletedExamples() {
                   <li>Création de site web responsive & mobile first</li>
                 </ul>
               </div>
+              <div className={classes.img4a}>
+              <a href="https://dev.fredericbrodar.com/img/protonwebmaster-site-min.jpg">
+                <img
+                  alt="test intrusion"
+                  src="https://dev.fredericbrodar.com/img/protonwebmaster-site-min.jpg"
+                />
+              </a>
+            </div>
             </ScrollAnimation>
           </GridItem>
           <GridItem xs={12} sm={12} md={8}>

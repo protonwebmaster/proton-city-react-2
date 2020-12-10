@@ -36,7 +36,7 @@ export default class ButtonLoader extends Component {
       >
         {loading && <MDBIcon icon="cog" spin size="2x" fixed />}
         {loading && <span className="sr-only">Loading...</span>}
-        {!loading && <span>Catalogue</span>}
+        {!loading && <span>Présentation</span>}
       </Button>
     );
   }
