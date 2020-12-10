@@ -7,7 +7,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import ScrollableAnchor from "react-scrollable-anchor";
 import Activateur from "./Sections/SectionActivateur";
 // @material-ui/icons
-import ArrowDropDownCircleIcon from "@material-ui/icons/ArrowDropDownCircle";
 import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 // core components
 import Footer from "components/Footer/Footer.js";
@@ -29,6 +28,7 @@ import styled, { keyframes } from "styled-components";
 import { rubberBand } from "react-animations";
 import Pulse from "react-reveal/Pulse";
 import CookieConsent from "react-cookie-consent";
+import Flash from "./Sections/Flash";
 
 const useStyles = makeStyles(styles);
 
@@ -57,25 +57,13 @@ export default function Components() {
                 </Bounce>
                 <br />
                 <Catalogue />
-                <br />
-                <a className={classes.arrow} href="#section-p1">
-                  <ArrowDropDownCircleIcon />
-                </a>
-                <br />
-                <a className={classes.arrow} href="#section-p2">
-                  <ArrowDropDownCircleIcon />
-                </a>
-                <br />
-                <a className={classes.arrow} href="#section-p3">
-                  <ArrowDropDownCircleIcon />
-                </a>
-                <br />
+                <br /> 
+                <Flash />                              
               </div>
             </GridItem>
           </GridContainer>
         </div>
       </Parallax>
-
       <div className={classNames(classes.main, classes.mainRaised)}>
         <GridItem md={12} className={classes.textCenter}>
           <Activateur />
