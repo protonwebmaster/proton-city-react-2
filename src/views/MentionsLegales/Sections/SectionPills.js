@@ -577,6 +577,10 @@ export default function SectionPills() {
                           <a href="https://codepen.io/JavaScriptJunkie/pen/YzzNGeR">
                             Muhammed Erdem - codepen.
                           </a>
+                          <br />
+                          <a href="https://unsplash.com/@imgix">
+                            Photo by imgix on Unsplash
+                          </a>
                         </p>
                       </span>
                     )

@@ -45,7 +45,7 @@ export default function SectionExamples() {
           </GridItem>
           <GridItem xs={6} sm={3}>
             <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
-              <a href="https://www.francenum.gouv.fr/comprendre-le-numerique/numerisation-des-commerces-de-proximite-letat-lance-un-appel-projets-pour">
+              <a href="https://booking.myrezapp.com/fr/online/booking/minisite/10718/protonwebmaster">
                 <img
                   src={Activateur}
                   alt="activateur"

@@ -21,7 +21,7 @@ export default function SectionNavbars() {
       <div className={classes.container}>
         <GridContainer>
           <Header
-            brand="Protonwebmaster"
+            brand="Protonwebmaster 06.59.91.02.70"
             color="info"
             fixed
             leftLinks={

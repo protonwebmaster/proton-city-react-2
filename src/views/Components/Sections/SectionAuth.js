@@ -30,7 +30,8 @@ export default function SectionDownload() {
             >
             <h2>Filtrage dns avancé</h2>
             <div className={classes.h4a}>           
-              Un filtre web avancé qui offre aux entreprises, aux ESN et aux écoles du monde entier une protection contre les menaces de sécurité HTTP et HTTPS, ainsi qu’un contrôle avancé du filtrage DNS.         
+              Un filtre web avancé qui offre aux entreprises, aux ESN et aux écoles du monde entier une protection contre les menaces de sécurité HTTP et HTTPS, ainsi qu’un contrôle avancé du filtrage DNS.
+              <p>Cette solution multi-locataires offre une protection complète en temps réel contre les menaces en ligne grâce à un filtrage de contenu avancé et à une protection antivirus.</p>         
             </div>
             <div className={classes.webtitan}> 
             <a href="https://booking.myrezapp.com/fr/online/booking/minisite/10718/protonwebmaster">
