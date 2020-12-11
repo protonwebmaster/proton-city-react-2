@@ -73,7 +73,10 @@ export default function SectionNotifications() {
           <span>
             <a href="https://dev.protonwebmaster.com/">
               <b>
-                <strong>Commerçants : aide de 500 euros pour la création d’un site Internet</strong>
+                <strong>
+                  Commerçants : aide de 500 euros pour la création d’un site
+                  Internet
+                </strong>
               </b>
             </a>
           </span>
@@ -87,16 +90,22 @@ export default function SectionNotifications() {
         <div className={classes.title}>
           <h5>Frédéric Brodar, je suis votre webmaster freelance,</h5>
           <p>
-           basé à Rians (18) mais également disponible pour vos projets à distance. Développeur web, j'ai acquis, une certaine expériences dans le domaine numérique et
-           plus particulièrement dans les nouvelles technologies.      
-          </p>  
+            basé à Rians (18) mais également disponible pour vos projets à
+            distance. Développeur web, j{"'"}ai acquis, une certaine expériences
+            dans le domaine numérique et plus particulièrement dans les
+            nouvelles technologies.
+          </p>
           <p>
-            Je vous propose des solutions modernes et adéquates pour votre projet, et cela, en fonction de votre besoin et de votre budget. J'accorde une
-            grande importance aux échanges et à la collaboration. Ainsi, je vous accompagne et vous conseille afin de booster votre visibilité sur le web et ainsi développer votre activité.
-          </p>      
-            <Link to="landing-page" className={classes.link}>
-                       <p>Parcours et démonstrations {">>"}</p>
-            </Link>            
+            Je vous propose des solutions modernes et adéquates pour votre
+            projet, et cela, en fonction de votre besoin et de votre budget. J
+            {"'"}accorde une grande importance aux échanges et à la
+            collaboration. Ainsi, je vous accompagne et vous conseille afin de
+            booster votre visibilité sur le web et ainsi développer votre
+            activité.
+          </p>
+          <Link to="landing-page" className={classes.link}>
+            <p>Parcours et démonstrations {">>"}</p>
+          </Link>
         </div>
       </div>
       <hr></hr>

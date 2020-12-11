@@ -33,13 +33,13 @@ export default function SectionCompletedExamples() {
                 </ul>
               </div>
               <div className={classes.img4a}>
-              <a href="https://dev.fredericbrodar.com/img/protonwebmaster-site-min.jpg">
-                <img
-                  alt="test intrusion"
-                  src="https://dev.fredericbrodar.com/img/protonwebmaster-site-min.jpg"
-                />
-              </a>
-            </div>
+                <a href="https://dev.fredericbrodar.com/img/protonwebmaster-site-min.jpg">
+                  <img
+                    alt="test intrusion"
+                    src="https://dev.fredericbrodar.com/img/protonwebmaster-site-min.jpg"
+                  />
+                </a>
+              </div>
             </ScrollAnimation>
           </GridItem>
           <GridItem xs={12} sm={12} md={8}>

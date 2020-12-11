@@ -13,6 +13,7 @@ import { Link } from "react-router-dom";
 import Blink from "./Blink";
 import "animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
+import webtitan from "assets/img/webtitan-protonwebmaster-min.png";
 
 const useStyles = makeStyles(styles);
 
@@ -21,7 +22,44 @@ export default function SectionDownload() {
   return (
     <div className={classes.section}>
       <div className={classes.container}>
-        <GridContainer className={classes.textCenter} justify="center">
+      <GridContainer className={classes.textCenter1} justify="center">
+          <GridItem xs={12} sm={12} md={8}>
+          <ScrollAnimation
+              animateIn="bounceInRight"
+              animateOut="bounceOutLeft"
+            >
+            <h2>Filtrage dns avancé</h2>
+            <div className={classes.h4a}>           
+              Un filtre web avancé qui offre aux entreprises, aux ESN et aux écoles du monde entier une protection contre les menaces de sécurité HTTP et HTTPS, ainsi qu’un contrôle avancé du filtrage DNS.         
+            </div>
+            <div className={classes.webtitan}> 
+            <a href="https://booking.myrezapp.com/fr/online/booking/minisite/10718/protonwebmaster">
+                <img
+                  src={webtitan}
+                  alt="webtitan"
+                  className={
+                    classes.imgRaised +
+                    " " +
+                    classes.imgRounded +
+                    " " +
+                    classes.imgFluid
+                  }
+                />
+              </a>
+              </div>
+            <a href="https://booking.myrezapp.com/fr/online/booking/minisite/10718/protonwebmaster">
+            <Button
+              color="rose"
+              size="lg"
+              >
+              Prendre un rendez-vous
+            </Button>
+            </a>
+          </ScrollAnimation>
+          </GridItem>        
+        </GridContainer>
+        <br />
+        <GridContainer className={classes.textCenter1} justify="center">
           <GridItem xs={12} sm={12} md={8}>
           <ScrollAnimation
               animateIn="bounceInRight"

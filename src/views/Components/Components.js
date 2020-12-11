@@ -57,8 +57,8 @@ export default function Components() {
                 </Bounce>
                 <br />
                 <Catalogue />
-                <br /> 
-                <Flash />                              
+                <br />
+                <Flash />
               </div>
             </GridItem>
           </GridContainer>
@@ -68,38 +68,40 @@ export default function Components() {
         <GridItem md={12} className={classes.textCenter}>
           <Activateur />
           <div className={classNames(classes.cybs)}>
-          <h4>Solutions web et Cybersécurité</h4>
-          <h5>
-            On vous propose des solutions complètes de développement, d'audits
-            de sécurité et de marketing de sites Web axées sur vos objectifs:
-          </h5>
-          <p>
-            <ul>
-              <li>
-                Définition de l{"'"}objectif avec une présentation technique et
-                fonctionnelle.
-              </li>
-              <li>
-                Elaboration du cahier des charges, et de la charte graphique.
-              </li>
-              <li>
-                L{"'"}expression des besoins et les vulnérabilités de securité.
-              </li>
-              <li>
-                Le choix de la méthode de travail qui repose sur la méthode
-                Agile.
-              </li>
-              <li>
-                Un audit de sécurité complet, pour déceler les vulnérabilités
-                dans vos applications.
-              </li>
-            </ul>
-          </p>
+            <h4>Solutions web et Cybersécurité</h4>
+            <h5>
+              On vous propose des solutions complètes de développement, d{"'"}
+              audits de sécurité et de marketing de sites Web axées sur vos
+              objectifs:
+            </h5>
+            <p>
+              <ul>
+                <li>
+                  Définition de l{"'"}objectif avec une présentation technique
+                  et fonctionnelle.
+                </li>
+                <li>
+                  Elaboration du cahier des charges, et de la charte graphique.
+                </li>
+                <li>
+                  L{"'"}expression des besoins et les vulnérabilités de
+                  securité.
+                </li>
+                <li>
+                  Le choix de la méthode de travail qui repose sur la méthode
+                  Agile.
+                </li>
+                <li>
+                  Un audit de sécurité complet, pour déceler les vulnérabilités
+                  dans vos applications.
+                </li>
+              </ul>
+            </p>
           </div>
         </GridItem>
         <ScrollableAnchor id={"section-p1"}>
           <div></div>
-        </ScrollableAnchor>       
+        </ScrollableAnchor>
         <SectionCompletedExamples />
         <SectionDownload />
         <ScrollableAnchor id={"section-p2"}>
@@ -128,9 +130,12 @@ export default function Components() {
         ></CookieConsent>
         <SectionNotifications />
         <SectionExamples />
-        <City />  
-        <SectionAuth />    
+        <City />
         <ScrollableAnchor id={"section-p3"}>
+          <div></div>
+        </ScrollableAnchor>
+        <SectionAuth />
+        <ScrollableAnchor id={"section-p4"}>
           <div></div>
         </ScrollableAnchor>
         <ContactUs />

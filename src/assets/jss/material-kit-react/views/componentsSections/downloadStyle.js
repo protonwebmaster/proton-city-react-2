@@ -8,6 +8,19 @@ const downloadStyle = {
   textCenter: {
     textAlign: "center"
   },
+
+  textCenter1: {
+    textAlign: "center",
+    paddingTop: "20px"
+  },
+
+  webtitan: {
+    marginTop: "15px",
+    marginBottom: "15px",
+    border: "2px solid;",
+    boxShadow: "5px 5px 3px 0px rgba(0,0,0,0.75)"
+  },
+
   sharingArea: {
     marginTop: "80px"
   },

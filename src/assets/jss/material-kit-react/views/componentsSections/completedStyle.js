@@ -19,7 +19,7 @@ const completedStyle = {
   },
   img4a: {
     border: "2px solid;",
-    boxShadow: "5px 5px 3px 0px rgba(0,0,0,0.75)"    
+    boxShadow: "5px 5px 3px 0px rgba(0,0,0,0.75)"
   }
 };
 
