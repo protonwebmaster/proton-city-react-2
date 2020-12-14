@@ -3,7 +3,7 @@ import Button from "components/CustomButtons/Button.js";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
-import catalogue from "assets/pdf/Protonwebmaster-tech2.pdf";
+import catalogue from "assets/pdf/catalogue-protonwebmaster-2021.pdf";
 import { MDBIcon } from "mdbreact";
 
 export default class ButtonLoader extends Component {
