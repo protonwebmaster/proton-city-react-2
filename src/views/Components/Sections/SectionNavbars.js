@@ -97,7 +97,7 @@ export default function SectionNavbars() {
                     active
                     color="transparent"
                   >
-                    <a href="https://www.fredericbrodar.com">
+                    <a href="https://dev.fredericbrodar.com/">
                       <strong>Dev</strong>
                     </a>
                   </Button>

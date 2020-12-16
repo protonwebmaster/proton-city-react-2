@@ -70,7 +70,7 @@ export default function PicturesPage() {
                   </a>
                 </p>
                 <p>
-                  <a href="https://fredericbrodar.com">
+                  <a href="https://dev.fredericbrodar.com">
                     Des années d{"'"}expérience
                   </a>{" "}
                   on permit de découvrir, et de créer une directive autour de ce
@@ -157,13 +157,13 @@ export default function PicturesPage() {
                 </p>
                 <ul>
                   <li>
-                    <a href="https://fredericbrodar.com/#auth">
+                    <a href="https://dev.fredericbrodar.com/#auth">
                       GIA ou Gestion des Identités ( Avec ou sans mot de passe
                       ).
                     </a>
                   </li>
                   <li>
-                    <a href="https://fredericbrodar.com/#tech">
+                    <a href="https://dev.fredericbrodar.com/#tech">
                       Intégration Stripe sur tous les types de site.
                     </a>
                   </li>
@@ -174,7 +174,7 @@ export default function PicturesPage() {
                   primordial pour la survie de l{"'"}entreprise. De nouvelles
                   idées permettent de développer des relations avec ses clients,
                   ou avec des prospects:{" "}
-                  <a href="https://fredericbrodar.com/protongame/">
+                  <a href="https://dev.fredericbrodar.com/protongame/">
                     Protongame
                   </a>
                   .
@@ -185,7 +185,7 @@ export default function PicturesPage() {
                   {"'"}
                   utilisation d{"'"}une application qui fait interagir le
                   visiteur.
-                  <a href="https://fredericbrodar.com/protongame/">
+                  <a href="https://dev.fredericbrodar.com/protongame/">
                     {" "}
                     Protongame
                   </a>{" "}
@@ -226,7 +226,7 @@ export default function PicturesPage() {
                   </GridItem>
                 </GridContainer>
                 <p>
-                  <a href="https://fredericbrodar.com/protongame/">
+                  <a href="https://dev.fredericbrodar.com/protongame/">
                     Protongame
                   </a>{" "}
                   est une application {"'"}Call-to-action{"'"}.{" "}

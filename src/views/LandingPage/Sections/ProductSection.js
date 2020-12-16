@@ -28,7 +28,7 @@ export default function ProductSection() {
             Je suis développeur web et web mobile, webmaster et webdesigner.
           </h3>
           <h5 className={classes.description}>
-            <a href="https://fredericbrodar.com">Autodidacte</a> dans le domaine
+            <a href="https://dev.fredericbrodar.com">Autodidacte</a> dans le domaine
             du numérique depuis 2014, au cours de ces années je me suis formé
             dans le vaste domaine qu{"'"}est le numérique, en abordant les
             technologies innovantes qui se projettent dans un dans un avenir à

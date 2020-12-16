@@ -182,7 +182,7 @@ export default function SectionPills() {
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={6}>
                             <a
-                              href="https://dev.fredericbrodar.com/"
+                              href="https://dev.fredericbrodar.com/traiteur.html"
                               className={classes.block}
                             >
                               <img
