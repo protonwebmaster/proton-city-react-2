@@ -108,8 +108,8 @@ export default function SectionNavbars() {
                     active
                     color="transparent"
                   >
-                    <a href="https://dev.protonwebmaster.com">
-                      <strong>Blog</strong>
+                    <a href="https://protonwebmaster.fr">
+                      <strong>Boutique</strong>
                     </a>
                   </Button>
                 </ListItem>
