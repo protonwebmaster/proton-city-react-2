@@ -30,13 +30,14 @@ export default function PicturesPage() {
               <div className={classes.profile}>
                 <div></div>
                 <div className={classes.name}>
-                  <h3 className={classes.title}>Ce que je vous propose.</h3>
+                  <h3 className={classes.title}>Les offres.</h3>
                   <h6>DESIGNER</h6>
                 </div>
               </div>
             </GridItem>
           </GridContainer>
           <div className={classes.description}>
+            <br />
             <p>Des solutions innovantes pour votre projet.</p>
           </div>
           <SectionCarousel />

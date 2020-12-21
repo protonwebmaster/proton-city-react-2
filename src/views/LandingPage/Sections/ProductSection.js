@@ -79,7 +79,7 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <a
-              href="https://github.com/protonwebmaster"
+              href="https://github.com/protonwebmaster/proton-city-react-2"
               className={classes.block}
             >
               <GitHubIcon fontSize="large" />

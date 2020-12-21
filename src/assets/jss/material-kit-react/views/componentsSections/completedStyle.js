@@ -18,6 +18,13 @@ const completedStyle = {
     }
   },
   img4a: {
+    marginTop: "50px",
+    marginBottom: "50px",
+    border: "2px solid;",
+    boxShadow: "5px 5px 3px 0px rgba(0,0,0,0.75)"
+  },
+  img4b: {
+    marginTop: "50px",
     border: "2px solid;",
     boxShadow: "5px 5px 3px 0px rgba(0,0,0,0.75)"
   }

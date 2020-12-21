@@ -60,7 +60,8 @@ export default function SectionExamples() {
               </a>
             </ScrollAnimation>
             <Button color="primary" size="lg" simple>
-              Activateur France Num, offreur de solutions.
+              Activateur France Num,<br/> 
+              offreur de solutions web.
             </Button>
           </GridItem>
           <GridItem xs={6} sm={3}>

@@ -59,7 +59,7 @@ export default function SectionCompletedExamples() {
         </GridContainer>
         <GridContainer className={classes.textCenter} justify="center">
           <GridItem xs={12} sm={8} md={4}>
-            <div className={classes.img4a}>
+            <div className={classes.img4b}>
               <a href="https://dev.fredericbrodar.com/img/audit.png">
                 <img
                   alt="test intrusion"
@@ -69,7 +69,7 @@ export default function SectionCompletedExamples() {
             </div>
           </GridItem>
           <GridItem xs={12} sm={8} md={4}>
-            <div className={classes.img4a}>
+            <div className={classes.img4b}>
               <a href="https://dev.fredericbrodar.com/img/arachni-audit.png">
                 <img
                   alt="audit"

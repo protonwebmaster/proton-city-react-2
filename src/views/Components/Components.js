@@ -52,7 +52,7 @@ export default function Components() {
                 </Pulse>
                 <Bounce>
                   <h3 className={classes.subtitle}>
-                    <strong>Application web - Audit de sécurité</strong>
+                    <strong>Création de site web - Audit de sécurité</strong>
                   </h3>
                 </Bounce>
                 <br />
