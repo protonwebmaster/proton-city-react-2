@@ -29,6 +29,7 @@ import { rubberBand } from "react-animations";
 import Pulse from "react-reveal/Pulse";
 import CookieConsent from "react-cookie-consent";
 import Flash from "./Sections/Flash";
+import Modal from "./Sections/Alert";
 
 const useStyles = makeStyles(styles);
 
@@ -56,9 +57,9 @@ export default function Components() {
                   </h3>
                 </Bounce>
                 <br />
-                <Catalogue />
+                <Catalogue />                
                 <br />
-                <Flash />
+                <Flash />               
               </div>
             </GridItem>
           </GridContainer>
@@ -98,6 +99,7 @@ export default function Components() {
               </ul>
             </p>
           </div>
+          <Modal />
         </GridItem>
         <ScrollableAnchor id={"section-p1"}>
           <div></div>
