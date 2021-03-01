@@ -54,7 +54,7 @@
     "reactstrap": "^8.7.1",
     "spinkit": "^2.0.1",
     "styled-components": "^5.2.1",
-    "three": "0.113.2"
+    "three": "0.125.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.8",
